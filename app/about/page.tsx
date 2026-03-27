@@ -92,8 +92,8 @@ export default function AboutPage() {
               interactive map
             </Link>
             , original neighborhood sign photography, and sign-inspired art you
-            can take home. We publish new neighborhood guides regularly and will
-            not stop until all 87 are complete.
+            can take home. All 87 neighborhood guides are live — and we
+            keep them updated.
           </p>
 
           <div className="bg-[#f5f5f5] px-8 py-8 !mt-12">
