@@ -5,6 +5,7 @@ import {
   generateBreadcrumbSchema,
   renderJsonLd,
 } from "@/lib/schema";
+import Image from "next/image";
 
 const BASE_URL = "https://mplswithlove.com";
 
@@ -193,6 +194,16 @@ export default function DogOwnersPage() {
           </svg>
           All Guides
         </Link>
+
+        <div className="relative w-full aspect-[21/9] mb-12 overflow-hidden">
+          <Image
+            src="/images/lifestyle/french-bulldog-stone-arch-bridge.webp"
+            alt="French Bulldog on the Stone Arch Bridge in Minneapolis"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
 
         <p className="text-[0.7rem] font-medium tracking-[0.25em] uppercase text-[#2a9d8f] mb-4">
           Minneapolis Guide

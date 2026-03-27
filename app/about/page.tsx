@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -17,6 +18,16 @@ export default function AboutPage() {
         <h1 className="text-5xl font-black tracking-[-0.03em] text-[#0a0a0a] mb-6 leading-[0.95]">
           The Story
         </h1>
+
+        <div className="relative w-full aspect-[21/9] mb-12 overflow-hidden">
+          <Image
+            src="/images/hero/stone-arch-bridge-mississippi-blue-hour-aerial.webp"
+            alt="Stone Arch Bridge and the Mississippi River at blue hour in Minneapolis"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
 
         <div className="space-y-6 text-[#71717a] leading-relaxed font-light text-lg">
           <p>

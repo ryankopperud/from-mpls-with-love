@@ -5,6 +5,7 @@ import {
   generateBreadcrumbSchema,
   renderJsonLd,
 } from "@/lib/schema";
+import Image from "next/image";
 
 const BASE_URL = "https://mplswithlove.com";
 
@@ -183,6 +184,16 @@ export default function SafestNeighborhoodsPage() {
           </svg>
           All Guides
         </Link>
+
+        <div className="relative w-full aspect-[21/9] mb-12 overflow-hidden">
+          <Image
+            src="/images/neighborhoods/blue-victorian-house-garden-summer.webp"
+            alt="Blue Victorian house with garden in a Minneapolis neighborhood"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
 
         <p className="text-[0.7rem] font-medium tracking-[0.25em] uppercase text-[#2a9d8f] mb-4">
           Minneapolis Guide

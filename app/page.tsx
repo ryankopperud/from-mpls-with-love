@@ -18,6 +18,9 @@ const FEATURED_GUIDES = [
     tag: "Most Walkable",
     description:
       "Warehouse lofts, James Beard restaurants, and the best Walk Score in Minneapolis.",
+    image: "/images/neighborhoods/north-loop-walkway-bike-share-evening.webp",
+    imageAlt:
+      "Evening view of the North Loop walkway with bike share stations and warm lighting",
   },
   {
     slug: "whittier",
@@ -25,6 +28,9 @@ const FEATURED_GUIDES = [
     tag: "Most Interesting",
     description:
       "Eat Street, MIA, genuine diversity, and the densest restaurant scene in the state.",
+    image: "/images/food/aster-cafe-st-anthony-main-summer.webp",
+    imageAlt:
+      "Aster Cafe on St. Anthony Main in summer, representing the diverse Minneapolis food scene",
   },
   {
     slug: "fulton",
@@ -32,6 +38,9 @@ const FEATURED_GUIDES = [
     tag: "Best for Families",
     description:
       "Lake Harriet, Craftsman bungalows, strong schools, and the quiet life done right.",
+    image: "/images/lakes/sailboats-minneapolis-lake-pink-dusk.webp",
+    imageAlt:
+      "Sailboats on a Minneapolis lake at pink dusk, capturing Fulton's lakeside lifestyle",
   },
   {
     slug: "logan-park",
@@ -39,6 +48,9 @@ const FEATURED_GUIDES = [
     tag: "Most Creative",
     description:
       "Art-A-Whirl, Northrup King studios, the brewery district, and the heart of Nordeast.",
+    image: "/images/architecture/grain-belt-beer-sign-northeast.webp",
+    imageAlt:
+      "The iconic Grain Belt beer sign in Northeast Minneapolis at night",
   },
   {
     slug: "powderhorn-park",
@@ -46,6 +58,9 @@ const FEATURED_GUIDES = [
     tag: "Most Authentic",
     description:
       "MayDay Parade, the lake as commons, radical community, and the real Minneapolis.",
+    image: "/images/parks/spoonbridge-cherry-sculpture-garden-winter.webp",
+    imageAlt:
+      "The Spoonbridge and Cherry sculpture in the Minneapolis Sculpture Garden during winter",
   },
   {
     slug: "longfellow",
@@ -53,6 +68,9 @@ const FEATURED_GUIDES = [
     tag: "Best Value",
     description:
       "Minnehaha Falls, the Greenway, rebuilding after 2020, and the most underpriced location in the city.",
+    image: "/images/parks/minnehaha-falls-summer-lush.webp",
+    imageAlt:
+      "Minnehaha Falls surrounded by lush summer greenery in the Longfellow neighborhood",
   },
 ];
 
@@ -81,57 +99,60 @@ export default function Home() {
   return (
     <div className="flex-1 bg-white">
       {/* ── Hero ── */}
-      <section className="max-w-7xl mx-auto px-6 pt-16 pb-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <div>
-          <p className="text-[0.7rem] font-medium tracking-[0.25em] uppercase text-[#2a9d8f] mb-6">
-            Minneapolis Neighborhood Guide
-          </p>
-          <h1 className="text-[clamp(2.5rem,6vw,5.5rem)] font-black leading-[0.9] tracking-[-0.03em] text-[#0a0a0a] mb-8">
-            From MPLS
-            <br />
-            With Love
-          </h1>
-          <p className="text-lg text-[#71717a] max-w-lg leading-relaxed mb-12 font-light">
-            Every Minneapolis neighborhood has a name, a sign, and a
-            story. We&apos;re writing them down.
-          </p>
-          <div className="flex flex-wrap gap-4">
-            <Link
-              href="/map"
-              className="inline-flex items-center gap-3 bg-[#2a9d8f] text-white px-8 py-4 text-[0.75rem] font-semibold tracking-[0.15em] uppercase hover:bg-[#264653] transition-colors"
-            >
-              Explore the Map
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M5 12h14" />
-                <path d="m12 5 7 7-7 7" />
-              </svg>
-            </Link>
-            <Link
-              href="/neighborhoods"
-              className="inline-flex items-center px-8 py-4 text-[0.75rem] font-semibold tracking-[0.15em] uppercase border border-[#e4e4e7] text-[#0a0a0a] hover:border-[#0a0a0a] transition-colors"
-            >
-              All Neighborhoods
-            </Link>
-          </div>
-        </div>
-        <div className="relative h-[500px] w-full grayscale">
+      <section className="relative overflow-hidden">
+        <div className="absolute inset-0">
           <Image
-            src="/mpls-aerial.jpg"
-            alt="Aerial view of downtown Minneapolis skyline and the Mississippi River"
+            src="/images/hero/stone-arch-bridge-st-anthony-falls-golden-hour.webp"
+            alt="The Stone Arch Bridge and St. Anthony Falls bathed in golden hour light over the Mississippi River in Minneapolis"
             fill
             className="object-cover"
             priority
           />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a]/80 via-[#0a0a0a]/50 to-transparent" />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-6 pt-24 pb-28 lg:pt-32 lg:pb-36">
+          <div className="max-w-2xl">
+            <p className="text-[0.7rem] font-medium tracking-[0.25em] uppercase text-[#2a9d8f] mb-6">
+              Minneapolis Neighborhood Guide
+            </p>
+            <h1 className="text-[clamp(2.5rem,6vw,5.5rem)] font-black leading-[0.9] tracking-[-0.03em] text-white mb-8">
+              From MPLS
+              <br />
+              With Love
+            </h1>
+            <p className="text-lg text-white/80 max-w-lg leading-relaxed mb-12 font-light">
+              Every Minneapolis neighborhood has a name, a sign, and a
+              story. We&apos;re writing them down.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <Link
+                href="/map"
+                className="inline-flex items-center gap-3 bg-[#2a9d8f] text-white px-8 py-4 text-[0.75rem] font-semibold tracking-[0.15em] uppercase hover:bg-[#264653] transition-colors"
+              >
+                Explore the Map
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
+                href="/neighborhoods"
+                className="inline-flex items-center px-8 py-4 text-[0.75rem] font-semibold tracking-[0.15em] uppercase border border-white/40 text-white hover:border-white transition-colors"
+              >
+                All Neighborhoods
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -160,17 +181,28 @@ export default function Home() {
               <Link
                 key={guide.slug}
                 href={`/neighborhoods/${guide.slug}`}
-                className="group bg-white border border-[#e4e4e7] p-6 hover:border-[#2a9d8f] transition-colors"
+                className="group bg-white border border-[#e4e4e7] hover:border-[#2a9d8f] transition-colors overflow-hidden"
               >
-                <p className="text-[0.6rem] font-bold tracking-[0.25em] uppercase text-[#2a9d8f] mb-2">
-                  {guide.tag}
-                </p>
-                <h3 className="text-xl font-bold text-[#0a0a0a] group-hover:text-[#2a9d8f] transition-colors mb-2">
-                  {guide.name}
-                </h3>
-                <p className="text-sm text-[#71717a] leading-relaxed">
-                  {guide.description}
-                </p>
+                <div className="relative aspect-[16/9] w-full overflow-hidden">
+                  <Image
+                    src={guide.image}
+                    alt={guide.imageAlt}
+                    width={800}
+                    height={450}
+                    className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-6">
+                  <p className="text-[0.6rem] font-bold tracking-[0.25em] uppercase text-[#2a9d8f] mb-2">
+                    {guide.tag}
+                  </p>
+                  <h3 className="text-xl font-bold text-[#0a0a0a] group-hover:text-[#2a9d8f] transition-colors mb-2">
+                    {guide.name}
+                  </h3>
+                  <p className="text-sm text-[#71717a] leading-relaxed">
+                    {guide.description}
+                  </p>
+                </div>
               </Link>
             ))}
           </div>
@@ -188,26 +220,37 @@ export default function Home() {
 
       {/* ── What We Do ── */}
       <section className="max-w-7xl mx-auto px-6 py-20">
-        <div className="max-w-3xl">
-          <p className="text-[0.65rem] font-bold tracking-[0.25em] uppercase text-[#2a9d8f] mb-3">
-            What This Is
-          </p>
-          <h2 className="text-3xl sm:text-4xl font-black tracking-[-0.02em] text-[#0a0a0a] mb-6">
-            Not a real estate listing. Not a Chamber of Commerce brochure.
-          </h2>
-          <p className="text-lg text-[#71717a] leading-relaxed font-light mb-6">
-            Every neighborhood guide is thousands of words of honest, specific,
-            deeply researched writing about what it&apos;s actually like to live
-            in that neighborhood. We cover the history, the restaurants, the
-            schools, the real estate &mdash; and the stuff no one else writes
-            about: the tensions, the changes, the problems, and the things that
-            make a neighborhood genuinely worth choosing.
-          </p>
-          <p className="text-lg text-[#71717a] leading-relaxed font-light">
-            Minneapolis has 87 officially defined neighborhoods, each with its
-            own sign, its own character, and its own argument about what this
-            city really is. We&apos;re documenting all of them.
-          </p>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="max-w-xl">
+            <p className="text-[0.65rem] font-bold tracking-[0.25em] uppercase text-[#2a9d8f] mb-3">
+              What This Is
+            </p>
+            <h2 className="text-3xl sm:text-4xl font-black tracking-[-0.02em] text-[#0a0a0a] mb-6">
+              Not a real estate listing. Not a Chamber of Commerce brochure.
+            </h2>
+            <p className="text-lg text-[#71717a] leading-relaxed font-light mb-6">
+              Every neighborhood guide is thousands of words of honest, specific,
+              deeply researched writing about what it&apos;s actually like to live
+              in that neighborhood. We cover the history, the restaurants, the
+              schools, the real estate &mdash; and the stuff no one else writes
+              about: the tensions, the changes, the problems, and the things that
+              make a neighborhood genuinely worth choosing.
+            </p>
+            <p className="text-lg text-[#71717a] leading-relaxed font-light">
+              Minneapolis has 87 officially defined neighborhoods, each with its
+              own sign, its own character, and its own argument about what this
+              city really is. We&apos;re documenting all of them.
+            </p>
+          </div>
+          <div className="relative aspect-[16/9] w-full overflow-hidden">
+            <Image
+              src="/images/fall/residential-street-fall-foliage-canopy.webp"
+              alt="A classic Minneapolis residential street lined with mature trees in full autumn color, golden and orange foliage forming a canopy over the road"
+              width={1200}
+              height={675}
+              className="object-cover w-full h-full"
+            />
+          </div>
         </div>
       </section>
 
@@ -279,28 +322,14 @@ export default function Home() {
               </svg>
             </Link>
           </div>
-          <div className="bg-[#f5f5f5] h-[350px] flex items-center justify-center">
-            <div className="text-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="48"
-                height="48"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#2a9d8f"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="mx-auto mb-4"
-              >
-                <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21" />
-                <line x1="9" x2="9" y1="3" y2="18" />
-                <line x1="15" x2="15" y1="6" y2="21" />
-              </svg>
-              <p className="text-sm text-[#71717a]">
-                Interactive neighborhood map
-              </p>
-            </div>
+          <div className="relative aspect-[16/9] w-full overflow-hidden">
+            <Image
+              src="/images/hero/minneapolis-skyline-above-tree-canopy-golden-hour.webp"
+              alt="The Minneapolis skyline rising above a lush tree canopy during golden hour, inviting exploration of the city's neighborhoods"
+              width={1200}
+              height={675}
+              className="object-cover w-full h-full"
+            />
           </div>
         </div>
       </section>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -15,6 +16,7 @@ const guides = [
     description:
       "Everything you need to know before moving to Minneapolis — neighborhoods, cost of living, weather, schools, jobs, transit, and what no one tells you until you get here.",
     category: "Relocation",
+    image: "/images/hero/minneapolis-aerial-skyline-river-summer.webp",
   },
   {
     slug: "minneapolis-vs-st-paul",
@@ -22,6 +24,7 @@ const guides = [
     description:
       "A genuinely balanced comparison of the Twin Cities — vibe, neighborhoods, food, nightlife, transit, cost of living, and which one is actually right for you.",
     category: "Relocation",
+    image: "/images/hero/minneapolis-skyline-freeway-light-trails-twilight.webp",
   },
   // Neighborhood Rankings
   {
@@ -30,6 +33,7 @@ const guides = [
     description:
       "The 10 best neighborhoods in Minneapolis, ranked and explained — with honest assessments of who each one is actually best for.",
     category: "Neighborhoods",
+    image: "/images/hero/minneapolis-skyline-i35w-fall-aerial.webp",
   },
   {
     slug: "safest-neighborhoods",
@@ -37,6 +41,7 @@ const guides = [
     description:
       "The safest neighborhoods in Minneapolis, ranked by crime data — with honest context about what 'safe' actually means in this city.",
     category: "Neighborhoods",
+    image: "/images/neighborhoods/blue-victorian-house-garden-summer.webp",
   },
   {
     slug: "most-affordable-neighborhoods",
@@ -44,6 +49,7 @@ const guides = [
     description:
       "The most affordable neighborhoods in Minneapolis — with honest assessments of why they're affordable and what you're trading off.",
     category: "Neighborhoods",
+    image: "/images/fall/residential-street-fall-foliage-canopy.webp",
   },
   {
     slug: "most-underrated-neighborhoods",
@@ -51,6 +57,7 @@ const guides = [
     description:
       "10 Minneapolis neighborhoods that are better than their reputation — the overlooked corners that deserve more attention.",
     category: "Neighborhoods",
+    image: "/images/neighborhoods/vintage-moped-minneapolis-alley-summer.webp",
   },
   // Lifestyle
   {
@@ -59,6 +66,7 @@ const guides = [
     description:
       "The best family-friendly neighborhoods in Minneapolis — ranked by schools, parks, safety, and what it's actually like to raise kids there.",
     category: "Lifestyle",
+    image: "/images/parks/park-basketball-court-spring-blossoms.webp",
   },
   {
     slug: "best-neighborhoods-for-young-professionals",
@@ -66,6 +74,7 @@ const guides = [
     description:
       "Where to live in Minneapolis in your 20s and 30s — ranked by walkability, nightlife, dining, rent, and social scene.",
     category: "Lifestyle",
+    image: "/images/hero/rooftop-friends-skyline-dusk.webp",
   },
   {
     slug: "best-neighborhoods-for-renters",
@@ -73,6 +82,7 @@ const guides = [
     description:
       "The best Minneapolis neighborhoods for renters — ranked by rent prices, inventory, walkability, and amenity access.",
     category: "Lifestyle",
+    image: "/images/neighborhoods/downtown-crosswalk-evening-rush.webp",
   },
   {
     slug: "best-neighborhoods-for-first-time-homebuyers",
@@ -80,6 +90,7 @@ const guides = [
     description:
       "Where to buy your first home in Minneapolis — ranked by price, appreciation potential, and honest tradeoffs.",
     category: "Lifestyle",
+    image: "/images/neighborhoods/cozy-minneapolis-home-interior-fireplace.webp",
   },
   {
     slug: "best-neighborhoods-for-retirees",
@@ -87,6 +98,7 @@ const guides = [
     description:
       "The best Minneapolis neighborhoods for 55+ residents — walkability, safety, healthcare access, and quality of life.",
     category: "Lifestyle",
+    image: "/images/lakes/sailboats-minneapolis-lake-pink-dusk.webp",
   },
   {
     slug: "best-neighborhoods-for-remote-workers",
@@ -94,6 +106,7 @@ const guides = [
     description:
       "Where to work from home in Minneapolis — ranked by coffee shops, co-working spaces, walkability, and work-life balance.",
     category: "Lifestyle",
+    image: "/images/coffee/cafe-latte-pastry-flatlay.webp",
   },
   {
     slug: "best-neighborhoods-for-dog-owners",
@@ -101,6 +114,7 @@ const guides = [
     description:
       "The most dog-friendly Minneapolis neighborhoods — off-leash parks, trails, pet-friendly businesses, and vet access.",
     category: "Lifestyle",
+    image: "/images/lifestyle/french-bulldog-stone-arch-bridge.webp",
   },
   {
     slug: "best-neighborhoods-for-artists",
@@ -108,6 +122,7 @@ const guides = [
     description:
       "Where Minneapolis's creative community lives and works — studios, galleries, affordable rent, and the neighborhoods that nurture art.",
     category: "Lifestyle",
+    image: "/images/murals/bob-dylan-mural-full-view.webp",
   },
   {
     slug: "best-neighborhoods-for-schools",
@@ -115,6 +130,7 @@ const guides = [
     description:
       "The best Minneapolis neighborhoods for families who prioritize schools — real ratings, real school names, and honest MPS context.",
     category: "Lifestyle",
+    image: "/images/parks/neighborhood-park-basketball-court-autumn.webp",
   },
   // Getting Around
   {
@@ -123,6 +139,7 @@ const guides = [
     description:
       "The neighborhoods where you can ditch the car — ranked by Walk Score, transit access, and what's actually within walking distance.",
     category: "Getting Around",
+    image: "/images/transit/sabo-bridge-pedestrians-overcast.webp",
   },
   {
     slug: "most-bikeable-neighborhoods",
@@ -130,6 +147,7 @@ const guides = [
     description:
       "The most bikeable neighborhoods in Minneapolis — ranked by Bike Score, trail access, infrastructure, and bike commute culture.",
     category: "Getting Around",
+    image: "/images/transit/cyclist-under-bridge-spring.webp",
   },
   {
     slug: "best-neighborhoods-for-public-transit",
@@ -137,6 +155,7 @@ const guides = [
     description:
       "The best Minneapolis neighborhoods for transit — light rail access, high-frequency bus routes, and honest car-free viability.",
     category: "Getting Around",
+    image: "/images/transit/metro-light-rail-downtown.webp",
   },
   {
     slug: "best-neighborhoods-near-downtown",
@@ -144,6 +163,7 @@ const guides = [
     description:
       "The best neighborhoods within walking, biking, or quick transit distance of downtown Minneapolis.",
     category: "Getting Around",
+    image: "/images/neighborhoods/downtown-minneapolis-skyways-dusk.webp",
   },
   {
     slug: "best-neighborhoods-near-the-lakes",
@@ -151,6 +171,7 @@ const guides = [
     description:
       "The best neighborhoods with lake access — from Bde Maka Ska and Harriet to Nokomis and Cedar, ranked by proximity and lifestyle.",
     category: "Getting Around",
+    image: "/images/lakes/lake-paddleboarding-golden-hour.webp",
   },
   // Food & Drink
   {
@@ -159,6 +180,7 @@ const guides = [
     description:
       "The best Minneapolis neighborhoods for dining — ranked by restaurant density, cuisine diversity, and the specific places worth the trip.",
     category: "Food & Drink",
+    image: "/images/food/spicy-noodles-soft-boiled-egg.webp",
   },
   {
     slug: "best-breweries-by-neighborhood",
@@ -166,6 +188,7 @@ const guides = [
     description:
       "Every brewery worth visiting in Minneapolis, organized by neighborhood — from Northeast's brewery row to hidden gems across the city.",
     category: "Food & Drink",
+    image: "/images/breweries/craft-beer-pints-taproom.webp",
   },
   {
     slug: "best-coffee-shops-by-neighborhood",
@@ -173,6 +196,7 @@ const guides = [
     description:
       "The best coffee shops in Minneapolis, organized by neighborhood — local chains, true independents, and the best spots to work or linger.",
     category: "Food & Drink",
+    image: "/images/coffee/cafe-latte-pastry-flatlay-2.webp",
   },
   {
     slug: "best-patios-outdoor-dining",
@@ -180,6 +204,7 @@ const guides = [
     description:
       "The best patios in Minneapolis by neighborhood — because the short summer makes every outdoor seat sacred.",
     category: "Food & Drink",
+    image: "/images/food/sidewalk-patio-palm-fronds-summer.webp",
   },
   {
     slug: "best-neighborhoods-for-nightlife",
@@ -187,6 +212,7 @@ const guides = [
     description:
       "Where to go out in Minneapolis — the neighborhoods with the best bars, live music, and late-night scenes, honestly assessed.",
     category: "Food & Drink",
+    image: "/images/nightlife/first-avenue-nightclub-daytime.webp",
   },
   // Outdoors & Seasons
   {
@@ -195,6 +221,7 @@ const guides = [
     description:
       "The best parks in Minneapolis, organized by neighborhood — lakes, trails, playgrounds, and the green spaces that define each area.",
     category: "Outdoors & Seasons",
+    image: "/images/parks/minnehaha-falls-summer-lush.webp",
   },
   {
     slug: "best-winter-neighborhoods",
@@ -202,6 +229,7 @@ const guides = [
     description:
       "The best Minneapolis neighborhoods for winter — skyway access, plowing, indoor amenities, and the neighborhoods that actually embrace the cold.",
     category: "Outdoors & Seasons",
+    image: "/images/winter/downtown-street-corner-snowfall-night.webp",
   },
   // Culture & History
   {
@@ -210,6 +238,7 @@ const guides = [
     description:
       "How Minneapolis became one of the only American cities where every neighborhood has its own sign — the civic history behind 87 distinct markers.",
     category: "Culture & History",
+    image: "/images/architecture/grain-belt-beer-sign-northeast.webp",
   },
 ];
 
@@ -229,13 +258,17 @@ export default function GuidesPage() {
           what makes this city work.
         </p>
 
-        <div className="space-y-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {guides.map((guide) => (
-            <Link
-              key={guide.slug}
-              href={`/guides/${guide.slug}`}
-              className="block group border-b border-[#e4e4e7] pb-8"
-            >
+            <Link key={guide.slug} href={`/guides/${guide.slug}`} className="block group border-b border-[#e4e4e7] pb-8">
+              <div className="relative w-full aspect-[2/1] mb-4 overflow-hidden bg-[#f5f5f5]">
+                <Image
+                  src={guide.image}
+                  alt={guide.title}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
               <p className="text-[0.65rem] font-bold tracking-[0.25em] uppercase text-[#2a9d8f] mb-2">
                 {guide.category}
               </p>
