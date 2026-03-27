@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getPublishedSlugs } from "@/lib/content-loader";
+import { COMMUNITIES } from "@/lib/communities";
 
 const BASE_URL = "https://mplswithlove.com";
 
@@ -67,5 +68,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
-  return [...staticPages, ...neighborhoodPages];
+  const slugify = (name: string) =>
+    name.toLowerCase().replace(/['']/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+  const communityPages: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/communities`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
+    ...COMMUNITIES.map((c) => ({
+      url: `${BASE_URL}/communities/${slugify(c.name)}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ];
+
+  return [...staticPages, ...neighborhoodPages, ...communityPages];
 }
