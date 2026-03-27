@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
-import { getPublishedSlugs } from "@/lib/content-loader";
+
 
 export const metadata: Metadata = {
   title: {
@@ -78,8 +78,6 @@ const EDITORIAL_LINKS = [
 ];
 
 export default function Home() {
-  const publishedCount = getPublishedSlugs().length;
-
   return (
     <div className="flex-1 bg-white">
       {/* ── Hero ── */}
@@ -153,7 +151,7 @@ export default function Home() {
               href="/neighborhoods"
               className="hidden sm:inline-flex text-sm font-semibold text-[#2a9d8f] hover:underline"
             >
-              View all {publishedCount}&nbsp;guides &rarr;
+              View all guides &rarr;
             </Link>
           </div>
 
@@ -182,7 +180,7 @@ export default function Home() {
               href="/neighborhoods"
               className="text-sm font-semibold text-[#2a9d8f] hover:underline"
             >
-              View all {publishedCount}&nbsp;guides &rarr;
+              View all guides &rarr;
             </Link>
           </div>
         </div>
