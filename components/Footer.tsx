@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const EXPLORE_LINKS = [
   { href: "/map", label: "Interactive Map" },
   { href: "/neighborhoods", label: "All Neighborhoods" },
-  { href: "/neighborhoods/fulton", label: "Fulton Guide" },
+  { href: "/guides", label: "Guides" },
 ];
 
 const ABOUT_LINKS = [
@@ -20,11 +21,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Brand column */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <Link
-              href="/"
-              className="text-sm font-bold tracking-[0.15em] uppercase text-white"
-            >
-              From MPLS With Love
+            <Link href="/" className="inline-block">
+              <Image
+                src="/logo-white.png"
+                alt="From MPLS With Love"
+                width={200}
+                height={200}
+                className="h-16 w-auto"
+              />
             </Link>
             <p className="mt-4 text-sm text-white/60 leading-relaxed font-light max-w-xs">
               The most in-depth guide to every neighborhood in Minneapolis

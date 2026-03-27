@@ -94,10 +94,8 @@ export default function Home() {
             With Love
           </h1>
           <p className="text-lg text-[#71717a] max-w-lg leading-relaxed mb-12 font-light">
-            The most in-depth guide to every neighborhood in
-            Minneapolis. {publishedCount}&nbsp;neighborhoods covered so far
-            &mdash; honest,
-            detailed, and written by people who actually live here.
+            Every Minneapolis neighborhood has a name, a sign, and a
+            story. We&apos;re writing them down.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link

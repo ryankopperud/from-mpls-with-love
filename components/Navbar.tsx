@@ -1,13 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const NAV_LINKS = [
-  { href: "/", label: "Home" },
   { href: "/map", label: "Map" },
   { href: "/neighborhoods", label: "Neighborhoods" },
+  { href: "/guides", label: "Guides" },
   { href: "/about", label: "About" },
   { href: "/store", label: "Store" },
   { href: "/contact", label: "Contact" },
@@ -19,21 +20,22 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white border-b border-[#e4e4e7] sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-14">
-        <Link
-          href="/"
-          className="text-sm font-bold tracking-[0.15em] uppercase text-[#0a0a0a]"
-        >
-          From MPLS With Love
+      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
+        <Link href="/" className="shrink-0">
+          <Image
+            src="/logo.png"
+            alt="From MPLS With Love"
+            width={200}
+            height={200}
+            className="h-16 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-0">
           {NAV_LINKS.map((link) => {
-            const isActive =
-              link.href === "/"
-                ? pathname === "/"
-                : pathname.startsWith(link.href);
+            const isActive = pathname.startsWith(link.href);
             return (
               <Link
                 key={link.href}
@@ -75,10 +77,7 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="md:hidden border-t border-[#e4e4e7] bg-white px-6 py-4 space-y-0">
           {NAV_LINKS.map((link) => {
-            const isActive =
-              link.href === "/"
-                ? pathname === "/"
-                : pathname.startsWith(link.href);
+            const isActive = pathname.startsWith(link.href);
             return (
               <Link
                 key={link.href}
