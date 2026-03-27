@@ -341,7 +341,7 @@ export default function BestNeighborhoodsPage() {
               Browse All Neighborhoods
             </Link>
             <Link
-              href="/moving-to-minneapolis"
+              href="/guides/moving-to-minneapolis"
               className="border border-white/30 text-white px-6 py-3 font-semibold text-sm hover:bg-white/10 transition-colors"
             >
               Moving to Minneapolis Guide

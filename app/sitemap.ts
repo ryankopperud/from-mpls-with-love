@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
     {
-      url: `${BASE_URL}/moving-to-minneapolis`,
+      url: `${BASE_URL}/guides/moving-to-minneapolis`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,

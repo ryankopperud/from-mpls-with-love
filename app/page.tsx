@@ -58,7 +58,7 @@ const FEATURED_GUIDES = [
 
 const EDITORIAL_LINKS = [
   {
-    href: "/moving-to-minneapolis",
+    href: "/guides/moving-to-minneapolis",
     title: "Moving to Minneapolis",
     description:
       "Everything you need to know — cost of living, weather, jobs, schools, and what no one tells you.",

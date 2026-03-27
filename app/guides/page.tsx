@@ -9,6 +9,13 @@ export const metadata: Metadata = {
 
 const guides = [
   {
+    slug: "moving-to-minneapolis",
+    title: "Moving to Minneapolis: The Complete Guide (2026)",
+    description:
+      "Everything you need to know before moving to Minneapolis — neighborhoods, cost of living, weather, schools, jobs, transit, and what no one tells you until you get here.",
+    category: "Relocation",
+  },
+  {
     slug: "best-neighborhoods",
     title: "Best Neighborhoods in Minneapolis (2026)",
     description:

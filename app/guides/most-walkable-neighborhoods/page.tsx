@@ -337,7 +337,7 @@ export default function MostWalkablePage() {
           </p>
           <div className="flex flex-wrap gap-4">
             <Link
-              href="/moving-to-minneapolis"
+              href="/guides/moving-to-minneapolis"
               className="bg-[#2a9d8f] text-white px-6 py-3 font-semibold text-sm hover:bg-[#238577] transition-colors"
             >
               Moving to Minneapolis Guide

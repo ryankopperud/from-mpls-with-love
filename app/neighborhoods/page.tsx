@@ -26,9 +26,12 @@ export default function NeighborhoodsPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-12 gap-y-14">
           {COMMUNITIES.map((community) => (
             <div key={community.name}>
-              <h2 className="text-[0.68rem] font-bold tracking-[0.2em] uppercase text-[#0a0a0a] pb-3 mb-4 border-b border-[#0a0a0a]">
+              <Link
+                href={`/communities/${slugify(community.name)}`}
+                className="block text-[0.68rem] font-bold tracking-[0.2em] uppercase text-[#0a0a0a] pb-3 mb-4 border-b border-[#0a0a0a] hover:text-[#2a9d8f] hover:border-[#2a9d8f] transition-colors"
+              >
                 {community.name}
-              </h2>
+              </Link>
               <ul className="space-y-2">
                 {community.neighborhoods.map((name) => (
                   <li key={name}>

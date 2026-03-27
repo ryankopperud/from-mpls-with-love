@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Moving to Minneapolis: The Complete Relocation Guide (2026)",
     description:
       "Everything you need to know before moving to Minneapolis — neighborhoods, cost of living, weather, schools, and what no one tells you until you get here.",
-    url: `${BASE_URL}/moving-to-minneapolis`,
+    url: `${BASE_URL}/guides/moving-to-minneapolis`,
     type: "article",
   },
 };
@@ -91,7 +91,7 @@ export default function MovingToMinneapolisPage() {
       title: "Moving to Minneapolis: The Complete Relocation Guide (2026)",
       description:
         "Everything you need to know before moving to Minneapolis — neighborhoods, cost of living, weather, schools, jobs, transit, and what no one tells you until you get here.",
-      url: `${BASE_URL}/moving-to-minneapolis`,
+      url: `${BASE_URL}/guides/moving-to-minneapolis`,
       datePublished: "2026-03-26",
       dateModified: "2026-03-26",
       authorName: "From MPLS With Love",
@@ -101,7 +101,7 @@ export default function MovingToMinneapolisPage() {
       { name: "Home", url: BASE_URL },
       {
         name: "Moving to Minneapolis",
-        url: `${BASE_URL}/moving-to-minneapolis`,
+        url: `${BASE_URL}/guides/moving-to-minneapolis`,
       },
     ]),
     generateFaqSchema(faq),
