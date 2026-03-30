@@ -297,12 +297,6 @@ function Content() {
           text="My kids swim in that natural pool all summer long, for free. They ride their bikes to the river. They play in a park that's two blocks from our house. And we own our home. Tell me where else in Minneapolis you can have all of that."
           cite="Webber-Camden parent"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/webber-camden/residential-street.webp"
-          alt="Residential street in Webber-Camden, Minneapolis, with modest homes and mature trees"
-          caption="Webber-Camden's residential blocks — modest homes, big yards, and the kind of neighborhood where kids still ride bikes in the street"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -413,12 +407,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/webber-camden/webber-pool.webp"
-          alt="Webber Park natural swimming pool in Minneapolis, with families swimming and the regeneration wetland visible"
-          caption="The Webber Park natural swimming pool — innovative, free, and the neighborhood's greatest asset"
-        />
       </ArticleSection>
 
       {/* Schools */}

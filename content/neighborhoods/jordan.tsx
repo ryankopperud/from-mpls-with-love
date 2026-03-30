@@ -278,12 +278,6 @@ function Content() {
           text="I've lived on this block for twenty-two years. I've seen it at its worst and I've seen it come back. The people who stayed — we're the neighborhood. Everything else is just buildings."
           cite="Jordan homeowner"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/jordan/jordan-park.webp"
-          alt="Jordan Park with families and children on a summer afternoon"
-          caption="Jordan Park — the neighborhood's gathering place and community anchor"
-        />
       </ArticleSection>
 
       {/* Food */}

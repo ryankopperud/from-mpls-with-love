@@ -348,12 +348,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/hale/diamond-lake-road.webp"
-          alt="Diamond Lake Road near the Hale neighborhood"
-          caption="Diamond Lake Road — a few businesses and the nearest thing Hale has to a main street"
-        />
-
         <ArticleSubsection title="The Go-To Spots">
           <PlaceCardComponent place={{ name: "Nokomis Beach Coffee", tag: "Coffee Shop", price: "$", description: "Near Lake Nokomis, a short bike ride from Hale. A neighborhood coffee shop that serves the lake-area communities. Good coffee, a relaxed vibe, and the kind of place where you end up staying longer than you planned." }} />
           <PlaceCardComponent place={{ name: "Sandcastle", tag: "Restaurant & Bar", price: "$$", description: "Near Lake Nokomis. Lakeside dining with a seasonal patio that draws crowds in summer. Burgers, sandwiches, and drinks with a view of the lake. Hale residents consider it their neighborhood spot even though it's technically in Nokomis." }} />
@@ -402,11 +396,6 @@ function Content() {
               are supposed to do, and it does it consistently.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/hale/hale-park.webp"
-            alt="Hale Park playground and green space"
-            caption="Hale Park — rec center, playground, and the neighborhood's common ground"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Lake Nokomis">
           <Prose>
@@ -586,11 +575,6 @@ function Content() {
             proximity is better than you&apos;d expect.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/hale/creek-trail.webp"
-          alt="Minnehaha Creek trail along the southern edge of Hale"
-          caption="Minnehaha Creek — Hale's southern boundary and a corridor to the rest of the park system"
-        />
       </ArticleSection>
 
       {/* Tensions */}

@@ -352,11 +352,6 @@ function Content() {
               Bde Maka Ska can be.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/kenwood/lake-of-the-isles.webp"
-            alt="Lake of the Isles on a fall morning with the Kenwood parkway homes visible"
-            caption="Lake of the Isles — Kenwood's living room"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Cedar Lake">
@@ -495,12 +490,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/kenwood/residential-street.webp"
-          alt="Grand historic homes along Kenwood Parkway with mature trees"
-          caption="Kenwood Parkway — where some of Minneapolis's finest residential architecture meets Lake of the Isles"
-        />
 
         <ArticleSubsection title="The Preservation Instinct">
           <Prose>

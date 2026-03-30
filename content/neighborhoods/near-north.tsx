@@ -319,12 +319,6 @@ function Content() {
           text="People look at North Minneapolis and see what's wrong. We live here and see what's strong. Both things are true, but only one of them is the whole story."
           cite="Near North resident and longtime community organizer"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/near-north/broadway.webp"
-          alt="Broadway Avenue commercial corridor in Near North Minneapolis"
-          caption="Broadway Avenue — the neighborhood's primary commercial corridor"
-        />
       </ArticleSection>
 
       {/* Food */}

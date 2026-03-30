@@ -364,11 +364,6 @@ function Content() {
               residents, the park starts at the end of the block.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/bryn-mawr/wirth-park.webp"
-            alt="Theodore Wirth Park trails in Minneapolis near Bryn Mawr"
-            caption="Theodore Wirth Park — 759 acres of urban wilderness at the neighborhood's edge"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Cedar Lake">
           <Prose>
@@ -503,11 +498,6 @@ function Content() {
             visitors sometimes get lost.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/bryn-mawr/cedar-lake-trail.webp"
-          alt="Cedar Lake Trail near Bryn Mawr with cyclist"
-          caption="The Cedar Lake Trail — Bryn Mawr's car-free highway to downtown"
-        />
       </ArticleSection>
 
       {/* Tensions */}

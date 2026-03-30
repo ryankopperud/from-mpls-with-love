@@ -387,12 +387,6 @@ function Content() {
         <Quote text="We found our house by accident — we were looking at Nokomis and couldn't afford it, and our agent showed us a listing in Regina that was $50,000 less for a similar home one neighborhood over. Best accident we ever had." cite="Regina homeowner, neighborhood survey" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/regina/creek.webp"
-        alt="Minnehaha Creek along the southern edge of the Regina neighborhood in Minneapolis"
-        caption="Minnehaha Creek — Regina's southern boundary and daily amenity"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Regina">
         <Prose>

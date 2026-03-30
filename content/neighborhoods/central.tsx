@@ -390,12 +390,6 @@ function Content() {
         <Quote text="We looked at a dozen neighborhoods before buying here. Central had the best combination of price, location, and neighbors who actually talk to each other." cite="Central homeowner, neighborhood survey" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/central/streetscape.webp"
-        alt="Chicago Avenue corridor through the Central neighborhood of Minneapolis"
-        caption="Chicago Avenue — Central's commercial spine"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Central">
         <Prose>

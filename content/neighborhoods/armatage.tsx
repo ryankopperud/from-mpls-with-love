@@ -371,11 +371,6 @@ function Content() {
               community connected.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/armatage/armatage-park.webp"
-            alt="Armatage Park playground and green space in summer"
-            caption="Armatage Park — the neighborhood's central gathering place"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Minnehaha Creek Trail">
           <Prose>
@@ -445,12 +440,6 @@ function Content() {
             its size might suggest.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/armatage/armatage-school.webp"
-          alt="Armatage Community School building in Minneapolis"
-          caption="Armatage Community School — a neighborhood institution"
-        />
       </ArticleSection>
 
       {/* Real Estate */}
@@ -532,11 +521,6 @@ function Content() {
             — it&apos;s car-convenient, which is a different thing.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/armatage/streetscape.webp"
-          alt="Quiet residential street in Armatage with mature trees"
-          caption="Armatage's residential streets — wide, shaded, and suburban in feel"
-        />
       </ArticleSection>
 
       {/* Tensions */}

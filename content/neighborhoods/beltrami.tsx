@@ -322,12 +322,6 @@ function Content() {
           text="I tell people I live in Beltrami and they say 'Where?' Then I tell them it's the neighborhood just north of St. Anthony West and they say 'Oh, is that cheaper?' Yes. That's the point."
           cite="Beltrami homeowner"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/beltrami/residential-street.webp"
-          alt="Historic residential street in Beltrami, Northeast Minneapolis, with pre-war homes and front porches"
-          caption="Beltrami — the old Northeast, still standing and still affordable"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -420,12 +414,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/beltrami/river-view.webp"
-          alt="Mississippi River view from near Beltrami neighborhood, with wooded banks and river trail"
-          caption="The Mississippi River at Beltrami — river trail access and views a mile upstream from the Stone Arch Bridge"
-        />
       </ArticleSection>
 
       {/* Schools */}

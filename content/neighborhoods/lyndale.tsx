@@ -245,12 +245,6 @@ function Content() {
             become meaningfully diverse without most of the city noticing.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/lyndale/historic-bungalows.webp"
-          alt="Row of 1920s-era bungalows on a residential street in Lyndale"
-          caption="Lyndale's bungalows — the housing stock that has defined the neighborhood for a century"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -298,12 +292,6 @@ function Content() {
         <Quote
           text="People ask where I live and I say Lyndale and they say 'Near Lyn-Lake?' and I say no, south, near Diamond Lake. Then they nod and change the subject. That's the neighborhood in a nutshell — nobody knows it, and the people who live here like it that way."
           cite="Lyndale resident, 20 years"
-        />
-
-        <ImageSlot
-          src="/images/neighborhoods/lyndale/residential-block.webp"
-          alt="Quiet residential block in Lyndale with bungalows, mature trees, and front porches"
-          caption="Lyndale's residential blocks — the neighborhood's substance and its identity"
         />
       </ArticleSection>
 
@@ -378,11 +366,6 @@ function Content() {
               walking distance, it is a daily asset.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/lyndale/diamond-lake.webp"
-            alt="Diamond Lake and surrounding parkland at the southern edge of Lyndale neighborhood"
-            caption="Diamond Lake — a small lake that provides green space and walking paths at Lyndale's southern edge"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Nearby Parks and Connections">
@@ -531,12 +514,6 @@ function Content() {
             garages, and parking is almost never a concern.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/lyndale/bike-route.webp"
-          alt="Residential bike route through Lyndale neighborhood with tree-lined street"
-          caption="Lyndale's flat, tree-lined streets — well-suited for cycling and the neighborhood's primary alternative to driving"
-        />
       </ArticleSection>
 
       {/* Tensions */}

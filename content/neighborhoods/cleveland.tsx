@@ -313,12 +313,6 @@ function Content() {
           text="I live next to a park that's bigger than Central Park. I bike to work on a trail that goes straight downtown. My house cost less than a condo in Uptown. When people ask me why I live on the North Side, I just tell them to come see for themselves."
           cite="Cleveland resident and cyclist"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/cleveland/residential-street.webp"
-          alt="Residential street in Cleveland, Minneapolis, with modest homes and Theodore Wirth Park visible in the background"
-          caption="Cleveland — modest homes on the edge of a world-class park"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -421,12 +415,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/cleveland/wirth-park-trail.webp"
-          alt="Trail in Theodore Wirth Park near Cleveland neighborhood, with wooded hills and mountain bikers"
-          caption="Theodore Wirth Park — world-class trails, a lake, and 740 acres of green space at Cleveland's edge"
-        />
       </ArticleSection>
 
       {/* Schools */}

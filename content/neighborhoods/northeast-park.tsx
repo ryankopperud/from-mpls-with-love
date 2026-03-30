@@ -286,12 +286,6 @@ function Content() {
             in the city.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/northeast-park/postwar-homes.webp"
-          alt="Postwar rambler-style homes in Northeast Park, showing the neighborhood's mid-century residential character"
-          caption="Northeast Park's postwar ramblers — built for GIs and their families in the late 1940s and 1950s, still affordable by Minneapolis standards"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -431,12 +425,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/northeast-park/st-anthony-parkway.webp"
-          alt="St. Anthony Parkway in Northeast Minneapolis with tree-lined boulevard and walking paths"
-          caption="St. Anthony Parkway — Northeast Park's best outdoor amenity and connection to the Grand Rounds"
-        />
 
         <ArticleSubsection title="Northeast Park (the Park)">
           <Prose>
@@ -583,12 +571,6 @@ function Content() {
         <Quote text="Our realtor tried to steer us to Columbia Heights — 'same houses, lower taxes.' But we wanted to be in Minneapolis. We wanted the parks, the plowing, the city services. We found a rambler in Northeast Park for $265,000. In Minneapolis. Three bedrooms. A garage. I still can't believe it." cite="Northeast Park first-time homebuyer, 2024" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/northeast-park/residential-street.webp"
-        alt="A quiet residential street in Northeast Park with ramblers and bungalows, large yards, and minimal traffic"
-        caption="Northeast Park's residential streets — wide, quiet, and more affordable than almost anywhere else in Minneapolis"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Northeast Park">
         <Prose>
@@ -705,12 +687,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/northeast-park/parkway-view.webp"
-        alt="A view along St. Anthony Parkway near Northeast Park with tree canopy and residential surroundings"
-        caption="St. Anthony Parkway near Northeast Park — the Grand Rounds connection that gives this edge neighborhood its best outdoor amenity"
-      />
 
       {/* FAQ */}
       <ArticleSection id="faq" title="Northeast Park FAQ">

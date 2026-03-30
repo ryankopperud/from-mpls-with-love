@@ -385,12 +385,6 @@ function Content() {
         <Quote text="Houses don't come up for sale often in Wenonah. When they do, they go fast. People don't leave this neighborhood — they just maintain their homes and stay." cite="Wenonah real estate agent, interview" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/wenonah/residential.webp"
-        alt="Tree-lined residential street in Wenonah, Minneapolis"
-        caption="Wenonah — tree-lined streets and mid-century homes in far south Minneapolis"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Wenonah">
         <Prose>

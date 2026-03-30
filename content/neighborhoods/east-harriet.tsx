@@ -341,11 +341,6 @@ function Content() {
               destination.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/east-harriet/lake-harriet.webp"
-            alt="Lake Harriet's east shore path with walkers and joggers"
-            caption="Lake Harriet from the east — East Harriet's western boundary"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Lyndale Farmstead Park">
@@ -456,12 +451,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/east-harriet/residential-street.webp"
-          alt="Craftsman bungalows on a tree-lined street in East Harriet"
-          caption="1920s Craftsman bungalows — the East Harriet standard"
-        />
 
         <ArticleSubsection title="The Linden Hills Comparison">
           <Prose>

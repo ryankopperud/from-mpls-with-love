@@ -358,12 +358,6 @@ function Content() {
           text="We moved here for Burroughs and stayed for everything else — the park, the lake, the neighbors. It just fits."
           cite="Lynnhurst resident, neighborhood survey"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/lynnhurst/character.webp"
-          alt="Families and neighbors at a Lynnhurst block party in summer"
-          caption="Block parties are a Lynnhurst institution, not a formality"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -390,12 +384,6 @@ function Content() {
             increasingly rare.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/lynnhurst/food-tilia.webp"
-          alt="Tilia restaurant on 54th and Lyndale in Minneapolis"
-          caption="Tilia, one of Southwest Minneapolis's best restaurants, sits just south of Lynnhurst"
-        />
 
         <ArticleSubsection title="The Anchors">
           <PlaceCardComponent place={{ name: "Tilia", tag: "American", price: "$$$", url: "https://tiliampls.com", description: "2726 W. 54th Street. Chef Steven Brown's neighborhood restaurant has become one of the best in Southwest Minneapolis — inventive, seasonal American cooking in a warm, unpretentious space. The burger is famous. The wine list is smart. It draws from across the city but still feels like a neighborhood place." }} />
@@ -455,11 +443,6 @@ function Content() {
               most valuable amenity the neighborhood offers.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/lynnhurst/lake-harriet.webp"
-            alt="Lake Harriet at sunset with the Minneapolis skyline in the distance"
-            caption="Lake Harriet defines Lynnhurst's eastern edge and daily rhythms"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="The Lake Harriet Bandshell">
           <Prose>
@@ -476,11 +459,6 @@ function Content() {
               like the reason you live here.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/lynnhurst/bandshell.webp"
-            alt="The Lake Harriet Bandshell during a free summer concert"
-            caption="The Bandshell concerts are Lynnhurst's backyard soundtrack all summer"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Lynnhurst Park">
           <Prose>
@@ -695,10 +673,6 @@ function Content() {
             emergencies) apply as they do across Minneapolis.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/lynnhurst/streetscape.webp"
-          alt="Tree-lined residential street in Lynnhurst with sidewalks and bungalows"
-        />
       </ArticleSection>
 
       {/* Tensions */}

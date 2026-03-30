@@ -294,12 +294,6 @@ function Content() {
           text="I walk to Central Ave for dinner and then I walk home to a block that's so quiet I can hear the neighbor's sprinkler. That's the whole pitch for Holland. It's not complicated."
           cite="Holland resident"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/holland/residential-street.webp"
-          alt="Tree-lined residential block in Holland, Northeast Minneapolis, with bungalows and trimmed lawns"
-          caption="Holland — the kind of block where the quiet is a feature, not a bug"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -375,12 +369,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/holland/park.webp"
-          alt="Holland Park in Northeast Minneapolis with playground and open green space"
-          caption="Holland Park — a neighborhood park for everyday use"
-        />
       </ArticleSection>
 
       {/* Schools */}

@@ -345,12 +345,6 @@ function Content() {
           text="Longfellow is where you go when you want to be part of something real. It's not curated. It's not polished. But the people here care about this place in a way you can feel."
           cite="Longfellow resident and community organizer"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/longfellow/lake-street.webp"
-          alt="Lake Street commercial corridor in Longfellow showing small businesses and pedestrians"
-          caption="Lake Street — the neighborhood's commercial spine and site of ongoing recovery"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -437,11 +431,6 @@ function Content() {
               network of parks and trails.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/longfellow/minnehaha-falls.webp"
-            alt="Minnehaha Falls in full summer flow with visitors at the overlook above"
-            caption="Minnehaha Falls draws over 850,000 visitors per year"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="The Mississippi River Gorge">
@@ -629,12 +618,6 @@ function Content() {
             hours.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/longfellow/greenway.webp"
-          alt="The Midtown Greenway bike trail in Longfellow with cyclists commuting on a summer morning"
-          caption="The Midtown Greenway — grade-separated cycling infrastructure through the heart of the neighborhood"
-        />
       </ArticleSection>
 
       {/* Tensions */}

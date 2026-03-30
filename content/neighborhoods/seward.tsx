@@ -445,12 +445,6 @@ function Content() {
           text="I've lived in a lot of Minneapolis neighborhoods, and Seward is the only one where I feel like my neighbors and I are actually building something together. It's not just a place to live — it's a project."
           cite="Seward resident and co-op member"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/seward/residential-street.webp"
-          alt="Tree-lined residential street in Seward, Minneapolis, with Craftsman bungalows and deep front porches"
-          caption="Seward's residential streets — modest houses, mature trees, and the kind of porches people actually use"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -596,11 +590,6 @@ function Content() {
               by millennia and will outlast it by as many more.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/seward/river-trail.webp"
-            alt="West River Parkway trail along the Mississippi River near Seward, Minneapolis, with autumn foliage"
-            caption="West River Parkway — the Mississippi River gorge at Seward's doorstep"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="The Midtown Greenway">
@@ -862,12 +851,6 @@ function Content() {
             likely to own bikes than second cars.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/seward/greenway.webp"
-          alt="The Midtown Greenway bike trail near its eastern terminus in Seward, with cyclists commuting"
-          caption="The Midtown Greenway's eastern terminus — Seward sits at the intersection of the city's best cycling corridors"
-        />
       </ArticleSection>
 
       {/* Tensions */}

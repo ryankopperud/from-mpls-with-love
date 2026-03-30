@@ -394,12 +394,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/kenny/50th-france.webp"
-          alt="The 50th and France commercial district at the border of Kenny and Edina"
-          caption="50th & France — technically Edina, but Kenny's de facto shopping district"
-        />
-
         <ArticleSubsection title="The Go-To Spots">
           <PlaceCardComponent place={{ name: "Pat's Tap", tag: "Bar & Restaurant", price: "$$", url: "https://www.patstap.com", description: "5050 Penn Ave. S. A neighborhood bar that gets the balance right — craft beer, solid food, a patio that fills up in summer, and a vibe that's welcoming without trying too hard. The burger is excellent. The tap list rotates. This is where Kenny residents go when they want to eat out without making it an event." }} />
           <PlaceCardComponent place={{ name: "Red Cow", tag: "Burgers & Craft Beer", price: "$$", url: "https://redcowmn.com", description: "3624 W. 50th Street. Technically on the Fulton side of 50th, but Kenny residents claim it just as readily. Gourmet burgers, a deep craft beer and wine list, and a corner location that anchors the 50th & France end of the strip." }} />
@@ -477,11 +471,6 @@ function Content() {
               collection of houses.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/kenny/kenny-park.webp"
-            alt="Kenny Park playground and green space in summer"
-            caption="Kenny Park — the neighborhood's central gathering place"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Lake Harriet & the Chain of Lakes">
           <Prose>
@@ -573,12 +562,6 @@ function Content() {
             faith-based schools.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/kenny/kenny-elementary.webp"
-          alt="Kenny Elementary School building in Minneapolis"
-          caption="Kenny Elementary — walkable from nearly every address in the neighborhood"
-        />
       </ArticleSection>
 
       {/* Real Estate */}
@@ -681,11 +664,6 @@ function Content() {
             most Southwest Minneapolis residents actually do.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/kenny/streetscape.webp"
-          alt="Quiet residential street in Kenny with mature trees and bungalow homes"
-          caption="Kenny's residential streets — quiet, shaded, and built for staying put"
-        />
       </ArticleSection>
 
       {/* Tensions */}

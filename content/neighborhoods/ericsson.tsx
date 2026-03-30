@@ -341,11 +341,6 @@ function Content() {
               park feel like a neighborhood living room.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/ericsson/ericsson-park.webp"
-            alt="Ericsson Park playground and green space"
-            caption="Ericsson Park — the neighborhood's central gathering place"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Lake Nokomis">
           <Prose>
@@ -484,11 +479,6 @@ function Content() {
             garage.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/ericsson/streetscape.webp"
-          alt="Quiet residential street in Ericsson with bungalows and mature trees"
-          caption="Ericsson's streets — modest, quiet, and built for staying"
-        />
       </ArticleSection>
 
       {/* Tensions */}

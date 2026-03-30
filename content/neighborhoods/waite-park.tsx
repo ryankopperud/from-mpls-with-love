@@ -273,12 +273,6 @@ function Content() {
             most welcoming to families with limited means.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/waite-park/historic-street.webp"
-          alt="Early 20th century houses on a Waite Park residential street, showing the neighborhood's working-class architectural heritage"
-          caption="Waite Park's housing stock — built for working-class immigrant families a century ago, still serving the same purpose for new arrivals"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -426,12 +420,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
 
-        <ImageSlot
-          src="/images/neighborhoods/waite-park/waite-park.webp"
-          alt="Waite Park green space with playground and community activity"
-          caption="Waite Park — where the neighborhood's diverse communities share common ground"
-        />
-
         <ArticleSubsection title="St. Anthony Parkway & Beyond">
           <Prose>
             <p>
@@ -569,12 +557,6 @@ function Content() {
         <Quote text="We bought our duplex for $290,000. We live upstairs, rent downstairs, and the rental income covers most of the mortgage. That's how my grandfather did it when he came from Poland in the 1950s. Same neighborhood, same strategy, new family." cite="Waite Park homeowner, originally from Mexico" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/waite-park/residential-block.webp"
-        alt="A residential block in Waite Park with modest homes, vegetable gardens, and diverse community character"
-        caption="Waite Park's residential blocks — affordable, diverse, and still accessible to working families"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Waite Park">
         <Prose>
@@ -699,12 +681,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/waite-park/central-avenue-north.webp"
-        alt="The northern stretch of Central Avenue NE near Waite Park with diverse storefronts and commercial activity"
-        caption="Central Avenue in the Waite Park stretch — working-class, diverse, and still affordable"
-      />
 
       {/* FAQ */}
       <ArticleSection id="faq" title="Waite Park FAQ">

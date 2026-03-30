@@ -407,12 +407,6 @@ function Content() {
               transportation link for bike commuters and pedestrians.
             </p>
           </Prose>
-
-          <ImageSlot
-            src="/images/neighborhoods/nicollet-island-east-bank/stone-arch-bridge.webp"
-            alt="The Stone Arch Bridge over the Mississippi River with St. Anthony Falls visible, Minneapolis"
-            caption="The Stone Arch Bridge — Minneapolis's most iconic pedestrian crossing and the neighborhood's front door"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="East Bank Trail & Riverwalk">
@@ -541,12 +535,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/nicollet-island-east-bank/nicollet-island.webp"
-        alt="Victorian homes on Nicollet Island in the Mississippi River, Minneapolis"
-        caption="Victorian homes on Nicollet Island — the most unique residential address in Minneapolis"
-      />
 
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Nicollet Island - East Bank">

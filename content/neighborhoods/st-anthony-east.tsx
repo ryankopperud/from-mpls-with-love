@@ -516,12 +516,6 @@ function Content() {
         </ArticleSubsection>
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/st-anthony-east/residential.webp"
-        alt="Residential street with historic homes in St. Anthony East, Minneapolis"
-        caption="St. Anthony East — modest homes, mature trees, and the quiet confidence of a neighborhood that knows what it is"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around St. Anthony East">
         <Prose>

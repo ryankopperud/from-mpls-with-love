@@ -262,12 +262,6 @@ function Content() {
             families.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/audubon-park/bungalows.webp"
-          alt="Early 20th century bungalows with front porches on a residential street in Audubon Park"
-          caption="Audubon Park's bungalows — built in the 1910s and 1920s for working-class families, still serving the same purpose a century later"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -411,12 +405,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
 
-        <ImageSlot
-          src="/images/neighborhoods/audubon-park/audubon-park.webp"
-          alt="Audubon Park green space with playground and athletic fields in Northeast Minneapolis"
-          caption="Audubon Park — the neighborhood's center of gravity and community gathering space"
-        />
-
         <ArticleSubsection title="Biking & Trail Access">
           <Prose>
             <p>
@@ -542,12 +530,6 @@ function Content() {
         <Quote text="Everyone talks about Northeast being expensive now. Audubon Park is the exception — or at least the last holdout. We paid $295,000 for a three-bedroom bungalow with a big yard. Try finding that in Logan Park." cite="Audubon Park homeowner, 2025" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/audubon-park/residential-street.webp"
-        alt="A residential street in Audubon Park with bungalows, front porches, and mature trees"
-        caption="Audubon Park residential streets — consistent, well-maintained, and quiet enough to hear the birds the neighborhood is named for"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Audubon Park">
         <Prose>
@@ -660,12 +642,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/audubon-park/evening-park.webp"
-        alt="Audubon Park on a summer evening with families and children at the playground"
-        caption="Audubon Park on a summer evening — the neighborhood's living room"
-      />
 
       {/* FAQ */}
       <ArticleSection id="faq" title="Audubon Park FAQ">

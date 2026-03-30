@@ -289,12 +289,6 @@ function Content() {
           text="We tell people we live in Northeast and they think we're in the middle of the arts district. Then they visit and see it's just a regular neighborhood. That's exactly why we like it."
           cite="Sheridan resident"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/sheridan/sheridan-park.webp"
-          alt="Sheridan Memorial Park with families on a spring afternoon"
-          caption="Sheridan Memorial Park — the neighborhood's modest but well-loved gathering space"
-        />
       </ArticleSection>
 
       {/* Food */}

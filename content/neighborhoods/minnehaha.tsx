@@ -382,11 +382,6 @@ function Content() {
               annually.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/minnehaha/minnehaha-park.webp"
-            alt="Minnehaha Regional Park creek and walking trails"
-            caption="Minnehaha Regional Park — 193 acres along the creek and the river"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Mississippi River Gorge">
           <Prose>

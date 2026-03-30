@@ -323,12 +323,6 @@ function Content() {
           text="People drive through Victory on the memorial drive and they're surprised — they expected something different from North Minneapolis. What they find is a neighborhood full of families who take care of their homes and look out for each other."
           cite="Victory resident and homeowner"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/victory/residential-street.webp"
-          alt="Tree-lined residential street in Victory, Minneapolis, with bungalows and front porches"
-          caption="Victory's residential streets — modest homes, mature trees, and the quiet that draws families"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -440,12 +434,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/victory/memorial-drive-trail.webp"
-          alt="Victory Memorial Drive trail in Minneapolis with elm trees and memorial markers"
-          caption="Victory Memorial Drive — one of the finest stretches of parkway in the Minneapolis Grand Rounds"
-        />
       </ArticleSection>
 
       {/* Schools */}

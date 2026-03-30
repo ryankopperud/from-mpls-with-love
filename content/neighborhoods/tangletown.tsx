@@ -394,12 +394,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/tangletown/nicollet-ave.webp"
-          alt="Nicollet Avenue commercial corridor near Tangletown"
-          caption="Nicollet Avenue — Tangletown's front porch for dining and shopping"
-        />
-
         <ArticleSubsection title="The Go-To Spots">
           <PlaceCardComponent place={{ name: "Pumphouse Creamery", tag: "Ice Cream", price: "$", url: "https://www.pumphousecreamery.com", description: "4754 Chicago Ave. S. Ice cream made on-site in a converted pumphouse, using local dairy. The flavors rotate seasonally and lean creative — salted caramel, honey lavender, brown butter. Lines form in summer. Worth every minute." }} />
           <PlaceCardComponent place={{ name: "Naviya's Thai Brasserie", tag: "Thai", price: "$$", url: "https://www.naviyasthai.com", description: "4952 S. Nicollet Ave. Upscale Thai in a warm, thoughtfully designed space. The curries are excellent, the cocktail program is surprisingly deep, and the owner's attention to detail shows in everything from the plating to the service." }} />
@@ -468,11 +462,6 @@ function Content() {
               that&apos;s unlike anything else in Minneapolis.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/tangletown/washburn-water-tower.webp"
-            alt="Washburn Park Water Tower rising above the tree canopy in Tangletown"
-            caption="The Washburn Park Water Tower — 110 feet of Gothic limestone and neighborhood pride"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Fuller Park">
           <Prose>
@@ -556,11 +545,6 @@ function Content() {
             find a good fit within a short commute.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/tangletown/school-walk.webp"
-          alt="Children walking to school along a tree-lined Tangletown street"
-          caption="The walk to school through Tangletown's winding streets"
-        />
       </ArticleSection>
 
       {/* Real Estate */}
@@ -665,11 +649,6 @@ function Content() {
             The tangle is Tangletown&apos;s best traffic calming device.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/tangletown/winding-road.webp"
-          alt="A characteristic curved road in Tangletown with homes set at varied angles"
-          caption="The roads curve, the homes angle — Tangletown's layout is its own traffic calming"
-        />
       </ArticleSection>
 
       {/* Tensions */}

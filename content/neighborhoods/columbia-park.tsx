@@ -301,12 +301,6 @@ function Content() {
           text="I bought in Columbia Park because I wanted Northeast without the Northeast prices. I can bike to Central Ave in ten minutes, walk to the river in five, and my mortgage is less than rent in Logan Park. The golf course is a bonus I didn't expect to care about, but I do."
           cite="Columbia Park homeowner"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/columbia-park/residential-street.webp"
-          alt="Residential street in Columbia Park, Northeast Minneapolis, with small homes and mature trees"
-          caption="Columbia Park — quiet blocks with golf course views and Northeast character at a lower volume"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -384,12 +378,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/columbia-park/golf-course.webp"
-          alt="Columbia Golf Course in Northeast Minneapolis, with golfers on green fairways and trees"
-          caption="Columbia Golf Course — public links that have served Northeast Minneapolis for more than a century"
-        />
       </ArticleSection>
 
       {/* Schools */}

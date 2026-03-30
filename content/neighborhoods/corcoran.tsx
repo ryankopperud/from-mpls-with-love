@@ -248,12 +248,6 @@ function Content() {
             immigrant-driven urban revitalization. Then came 2020.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/corcoran/historic-homes.webp"
-          alt="Late 19th and early 20th century homes on a residential street in Corcoran"
-          caption="Corcoran's housing stock — some of the oldest residential construction in South Minneapolis"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -300,12 +294,6 @@ function Content() {
         <Quote
           text="People from outside the neighborhood see the gaps on Lake Street and think we're falling apart. People who live here see the new businesses and think we're coming back. Both are true at the same time."
           cite="Corcoran resident, 15 years"
-        />
-
-        <ImageSlot
-          src="/images/neighborhoods/corcoran/residential-street.webp"
-          alt="Quiet residential street in Corcoran with modest homes and mature trees"
-          caption="Corcoran's interior blocks — the quiet residential heart south of Lake Street"
         />
       </ArticleSection>
 
@@ -384,11 +372,6 @@ function Content() {
               part of Minneapolis.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/corcoran/midtown-greenway.webp"
-            alt="Midtown Greenway bicycle trail running below street level through Corcoran"
-            caption="The Midtown Greenway — Corcoran's most significant outdoor asset and one of the best urban trails in the country"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Corcoran Park & Nearby Green Space">
@@ -529,12 +512,6 @@ function Content() {
             12 minutes via Hiawatha Avenue.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/corcoran/blue-line-station.webp"
-          alt="Lake Street/Midtown Blue Line light rail station near Corcoran"
-          caption="The Lake Street/Midtown Station — light rail access to downtown, the airport, and beyond"
-        />
       </ArticleSection>
 
       {/* Tensions */}

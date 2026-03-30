@@ -323,12 +323,6 @@ function Content() {
             neighborhood&apos;s identity.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/logan-park/northrup-king.webp"
-          alt="The Northrup King Building in Logan Park, a large industrial brick building converted into artist studios"
-          caption="The Northrup King Building — a former seed company headquarters now housing over 300 artist studios, and the anchor of Art-A-Whirl"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -426,12 +420,6 @@ function Content() {
             willingness to eat at a place with a hand-lettered sign.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/logan-park/central-avenue.webp"
-          alt="Central Avenue NE in the Logan Park area of Northeast Minneapolis, with diverse storefronts and commercial activity"
-          caption="Central Avenue — the commercial spine of Northeast Minneapolis, where every wave of immigrants left a mark"
-        />
 
         <ArticleSubsection title="Nordeast Institutions">
           <PlaceCardComponent place={{ name: "Kramarczuk's East European Sausage", tag: "Eastern European / Deli", price: "$–$$", description: "215 E. Hennepin Ave. (in St. Anthony West, but the spiritual center of Nordeast food culture). Kramarczuk's has been making kielbasa, bratwurst, pierogi, and Eastern European deli meats since 1954, when Wasyl and Anna Kramarczuk — Ukrainian immigrants — opened their sausage shop. The bakery counter sells poppy seed rolls and kolachi that taste like someone's grandmother made them, because the recipes are someone's grandmother's. The deli case is a cathedral of cured meat. This is Nordeast in edible form." }} />
@@ -533,12 +521,6 @@ function Content() {
           <PlaceCardComponent place={{ name: "California Building", tag: "Artist Studios / Gallery", description: "2205 California St. NE. A converted industrial building housing studios, galleries, and creative businesses. The California Building is slightly quieter than the NKB — fewer tourists, more working space — and tends to attract artists who are more focused on production than presentation. During Art-A-Whirl, it's one of the essential stops." }} />
           <PlaceCardComponent place={{ name: "Solar Arts Building", tag: "Artist Studios / Event Venue", description: "711 15th Ave. NE. Located adjacent to Indeed Brewing, the Solar Arts Building combines artist studios with event space and a taproom. It's the building where the art district and the brewery culture literally share a wall, which is as Logan Park as it gets." }} />
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/logan-park/art-a-whirl.webp"
-          alt="Crowds exploring open artist studios during Art-A-Whirl in the Northeast Minneapolis Arts District"
-          caption="Art-A-Whirl draws 35,000+ visitors to Logan Park and the Northeast Arts District every May"
-        />
 
         <ArticleSubsection title="Art-A-Whirl: The Main Event">
           <Prose>
@@ -818,12 +800,6 @@ function Content() {
         <Quote text="When I bought my house in Logan Park in 2011, my neighbors were a welder, a retired teacher, and a painter who'd been in the same studio since the '90s. Now it's two tech workers and an Airbnb. The neighborhood is better in some ways — cleaner, safer, more restaurants — but it's losing the people who made it worth discovering." cite="Logan Park homeowner, 2024" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/logan-park/residential-street.webp"
-        alt="A residential street in Logan Park showing early 20th century workers' cottages alongside newer construction"
-        caption="Logan Park's residential streets mix century-old workers' cottages with new construction — the neighborhood's transformation in a single frame"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Logan Park">
         <Prose>
@@ -1021,12 +997,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/logan-park/brewery-patio.webp"
-        alt="A busy brewery patio in the Logan Park neighborhood of Northeast Minneapolis on a summer evening"
-        caption="Brewery patios — like this one at Indeed — function as Logan Park's town squares"
-      />
 
       {/* FAQ */}
       <ArticleSection id="faq" title="Logan Park FAQ">

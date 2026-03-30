@@ -454,12 +454,6 @@ function Content() {
           text="I bought my house here in 1987 because I could walk to campus, the streets had character, and nobody was trying to turn the neighborhood into anything other than what it was. Thirty-eight years later, two of those three things are still true."
           cite="Longtime Prospect Park homeowner and University of Minnesota faculty"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/prospect-park/residential-street.webp"
-          alt="Hilly residential street in Prospect Park, Minneapolis, with stone retaining walls and mature trees"
-          caption="Prospect Park's hilly streets — rare Minneapolis topography lined with professors' homes and century-old trees"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -563,11 +557,6 @@ function Content() {
               &quot;prospect&quot; in Prospect Park.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/prospect-park/tower-hill.webp"
-            alt="View from Tower Hill Park in Prospect Park, Minneapolis, looking west toward the downtown skyline at sunset"
-            caption="Tower Hill Park — the highest point in Minneapolis, with the Witch's Hat tower and skyline views"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="The Mississippi River Gorge">
@@ -796,12 +785,6 @@ function Content() {
             relevant consideration for residents.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/prospect-park/green-line.webp"
-          alt="Green Line light rail train at the Prospect Park station in Minneapolis"
-          caption="The Prospect Park Green Line station — connecting a small neighborhood to two downtowns"
-        />
       </ArticleSection>
 
       {/* Tensions */}

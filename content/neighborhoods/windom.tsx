@@ -383,12 +383,6 @@ function Content() {
               that softens the edges of city life.
             </p>
           </Prose>
-
-          <ImageSlot
-            src="/images/neighborhoods/windom/minnehaha-creek.webp"
-            alt="Minnehaha Creek trail near Windom, Minneapolis, with trees and water"
-            caption="Minnehaha Creek — Windom's defining natural feature and daily companion"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Windom Park & Neighborhood Green Spaces">
@@ -505,12 +499,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/windom/residential.webp"
-        alt="Well-maintained homes with gardens in Windom, Minneapolis"
-        caption="Windom — mid-century homes, maintained yards, and the quiet confidence of established residential life"
-      />
 
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Windom">

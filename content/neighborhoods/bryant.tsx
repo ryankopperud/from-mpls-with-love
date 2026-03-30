@@ -232,12 +232,6 @@ function Content() {
             most distinguishing characteristic.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/bryant/historic-homes.webp"
-          alt="Early 20th century homes along a residential street in Bryant"
-          caption="Bryant's housing stock — built for working families over a century ago, now home to one of the city's most diverse communities"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -283,12 +277,6 @@ function Content() {
         <Quote
           text="Nobody moves to Bryant to make a statement. You move here because you can afford it and it's close to everything. Then you stay because the people on your block actually care about each other."
           cite="Bryant resident, 12 years"
-        />
-
-        <ImageSlot
-          src="/images/neighborhoods/bryant/residential-street.webp"
-          alt="Residential street in Bryant with modest homes and mature trees"
-          caption="Bryant's blocks — close-set homes, front porches, and the kind of quiet that exists between commercial corridors"
         />
       </ArticleSection>
 
@@ -364,11 +352,6 @@ function Content() {
               blocks.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/bryant/bryant-square-park.webp"
-            alt="Bryant Square Park playground and green space on a summer afternoon"
-            caption="Bryant Square Park — the neighborhood's central gathering place"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Nearby Green Space">
@@ -502,12 +485,6 @@ function Content() {
             can be tight during busy periods.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/bryant/greenway-access.webp"
-          alt="Midtown Greenway bicycle trail near Bryant neighborhood"
-          caption="The Midtown Greenway — Bryant's connection to the broader Minneapolis bike network"
-        />
       </ArticleSection>
 
       {/* Tensions */}

@@ -270,12 +270,6 @@ function Content() {
             struggled.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/nokomis/historic-parkway.webp"
-          alt="Nokomis Parkway curving along the lakeshore with mature trees and historic bungalows"
-          caption="Nokomis Parkway — the lakeshore drive that has anchored the neighborhood since the 1920s"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -340,12 +334,6 @@ function Content() {
         <Quote
           text="We looked at every lake neighborhood in the city. Nokomis was the only one where we could afford a house and still walk to the water. Five years later, I can't imagine living anywhere else."
           cite="Nokomis homeowner, parent of two"
-        />
-
-        <ImageSlot
-          src="/images/neighborhoods/nokomis/residential-street.webp"
-          alt="Tree-lined residential street in Nokomis with bungalows and front porches"
-          caption="Nokomis residential blocks — modest houses, mature trees, and the kind of porches people actually use"
         />
       </ArticleSection>
 
@@ -439,11 +427,6 @@ function Content() {
               pickup hockey game on the rinks maintained by the Park Board.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/nokomis/lake-nokomis-beach.webp"
-            alt="Swimmers and families at the Lake Nokomis main beach on a summer afternoon"
-            caption="The main beach at Lake Nokomis — sand, swimming, and the social heart of the neighborhood"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Nokomis Parkway & the Bandshell">
@@ -632,12 +615,6 @@ function Content() {
             can strain the supply.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/nokomis/parkway-trail.webp"
-          alt="Cyclists and walkers on the Nokomis Parkway trail with the lake in the background"
-          caption="The Nokomis Parkway loop — 2.7 miles of connected trail around the lake"
-        />
       </ArticleSection>
 
       {/* Tensions */}

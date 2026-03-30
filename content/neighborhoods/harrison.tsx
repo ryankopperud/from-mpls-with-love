@@ -283,12 +283,6 @@ function Content() {
           text="We've got families from ten different countries on this block. The kids don't think that's unusual. That's one of the best things about growing up here."
           cite="Harrison resident"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/harrison/harrison-park.webp"
-          alt="Harrison Park recreation area with families and children playing"
-          caption="Harrison Park — the neighborhood's central gathering space"
-        />
       </ArticleSection>
 
       {/* Food */}

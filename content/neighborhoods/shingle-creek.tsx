@@ -293,12 +293,6 @@ function Content() {
           text="People hear 'North Minneapolis' and they picture something specific. Then they come to Shingle Creek and see split-levels with nice yards and kids riding bikes and they don't know what to do with it. We like the confusion."
           cite="Shingle Creek homeowner"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/shingle-creek/residential-street.webp"
-          alt="Residential street in Shingle Creek, Minneapolis, with mid-century ramblers and mature trees"
-          caption="Shingle Creek — mid-century homes, wide lots, and a suburban feel within city limits"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -382,12 +376,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/shingle-creek/creek-parkway.webp"
-          alt="Shingle Creek parkway trail with creek and green space in Minneapolis"
-          caption="Shingle Creek parkway — the neighborhood's green corridor and shared outdoor space"
-        />
       </ArticleSection>
 
       {/* Schools */}

@@ -291,12 +291,6 @@ function Content() {
         </Prose>
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/lowry-hill-east/streetscape.webp"
-        alt="Tree-lined residential street with apartment buildings and duplexes in Lowry Hill East, Minneapolis"
-        caption="The interior streets are quieter than you'd expect — tree-lined blocks between two busy corridors"
-      />
-
       {/* Character */}
       <ArticleSection id="character" title="Living in The Wedge">
         <Prose>
@@ -390,12 +384,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/lowry-hill-east/lyndale-ave.webp"
-          alt="Lyndale Avenue commercial corridor near Lowry Hill East with restaurant signs and pedestrians"
-          caption="Lyndale Avenue — one of two commercial spines that define life in The Wedge"
-        />
-
         <ArticleSubsection title="Neighborhood Institutions">
           <PlaceCardComponent place={{ name: "Wedge Community Co-op", tag: "Co-op / Grocery", description: "2105 Lyndale Ave. S. More than a grocery store. The Wedge is one of the largest natural foods cooperatives in the country, founded in 1974 and now serving over 18,000 member-owners. The produce is local and organic when possible, the cheese section is genuinely excellent, the bulk aisle is a lifestyle commitment, and the bulletin board near the entrance is the neighborhood's unofficial town square. The adjacent Wedge Table serves prepared foods — sandwiches, salads, hot bar — for takeout or sidewalk eating." }} />
           <PlaceCardComponent place={{ name: "Bryant Lake Bowl", tag: "Bowling / Theater / Brunch", price: "$–$$", url: "https://bryantlakebowl.com", description: "810 W. Lake St. Part bowling alley, part restaurant, part black-box theater — a combination that shouldn't work but has been working since 1993. The brunch is solid, the bowling is charmingly old-school (eight lanes, manual scoring for years before they relented), and the theater hosts fringe performances, comedy, and community events. BLB is The Wedge in miniature: eclectic, slightly chaotic, and doing several things at once with more enthusiasm than polish." }} />
@@ -470,12 +458,6 @@ function Content() {
               civic asset.
             </p>
           </Prose>
-
-          <ImageSlot
-            src="/images/neighborhoods/lowry-hill-east/sculpture-garden.webp"
-            alt="Spoonbridge and Cherry sculpture in the Minneapolis Sculpture Garden near Lowry Hill East"
-            caption="The Sculpture Garden — The Wedge's front yard and Minneapolis's most photographed landmark"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Bryant Square Park">
@@ -668,12 +650,6 @@ function Content() {
 
         <Quote text="The apartments are small, the walls are thin, and I can hear my neighbor&apos;s cat at 3 a.m. But I walk to everything, I bike to work, and my rent is half what my friends pay downtown. I&apos;ll take it." cite="Lowry Hill East renter, community forum" />
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/lowry-hill-east/apartments.webp"
-        alt="Mix of older walk-up apartments and newer construction in Lowry Hill East, Minneapolis"
-        caption="Old walk-ups and new mixed-use — The Wedge's housing stock is layered, not uniform"
-      />
 
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around The Wedge">

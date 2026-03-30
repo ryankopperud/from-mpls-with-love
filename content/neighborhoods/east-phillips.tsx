@@ -428,12 +428,6 @@ function Content() {
         <Quote text="This neighborhood has been affordable for decades. The question is whether that's because people chose not to invest here, or because the people here were never given the choice. We're trying to change that equation." cite="East Phillips organizer, community meeting" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/east-phillips/residential.webp"
-        alt="Residential street in East Phillips with older homes and community garden"
-        caption="East Phillips — modest homes, deep roots, and community gardens everywhere"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around East Phillips">
         <Prose>
@@ -517,12 +511,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/east-phillips/community.webp"
-        alt="Community gathering in East Phillips neighborhood park"
-        caption="East Phillips — a community that organizes, advocates, and shows up"
-      />
 
       {/* FAQ */}
       <ArticleSection id="faq" title="East Phillips FAQ">

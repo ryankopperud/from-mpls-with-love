@@ -383,12 +383,6 @@ function Content() {
               them from the front porch.
             </p>
           </Prose>
-
-          <ImageSlot
-            src="/images/neighborhoods/windom-park/columbia-park.webp"
-            alt="Columbia Park green space near Windom Park, Minneapolis"
-            caption="Columbia Park — the large regional park that anchors Windom Park's quality of life"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Windom Park (the park)">
@@ -508,12 +502,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/windom-park/residential.webp"
-        alt="Residential street in Windom Park, Northeast Minneapolis, with mature trees"
-        caption="Windom Park — modest homes, mature lots, and the quiet stability of established Northeast residential life"
-      />
 
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Windom Park">

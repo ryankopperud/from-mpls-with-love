@@ -489,12 +489,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/north-loop/restaurant-row.webp"
-          alt="First Avenue North in North Loop with restaurant storefronts and brick warehouse buildings"
-          caption="First Avenue North — one of the densest restaurant corridors in the Twin Cities"
-        />
-
         <ArticleSubsection title="The Headliners">
           <PlaceCardComponent place={{ name: "Spoon and Stable", tag: "New American", price: "$$$$", url: "https://www.spoonandstable.com", description: "211 N. First Street. Chef Gavin Kaysen's flagship, opened in 2014 in a converted horse stable. Kaysen, a James Beard Award winner, brought his fine-dining pedigree back from New York to his home state — and the restaurant became an instant anchor of the North Loop dining scene. The pretzels with beer cheese fondue are iconic. The pasta is consistently among the best in the city. Reservations are essential." }} />
           <PlaceCardComponent place={{ name: "Bachelor Farmer", tag: "New Nordic", price: "$$$", description: "50 N. Second Avenue. Opened in 2011 by Eric and Andrew Dayton (yes, those Daytons — as in the department store family), Bachelor Farmer helped define the New Nordic movement in the Twin Cities. The restaurant emphasizes Scandinavian-influenced cuisine with local ingredients, reflecting the region's immigrant heritage. The adjacent Marvel Bar is one of the best cocktail bars in Minneapolis." }} />
@@ -596,12 +590,6 @@ function Content() {
               to the trails on the east bank of the river.
             </p>
           </Prose>
-
-          <ImageSlot
-            src="/images/neighborhoods/north-loop/riverfront.webp"
-            alt="Mississippi River view from North Loop with the Stone Arch Bridge and Minneapolis skyline"
-            caption="The Mississippi riverfront — North Loop's northern boundary and its best outdoor asset"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Target Field & Gameday">
@@ -740,12 +728,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/north-loop/loft-building.webp"
-          alt="Converted warehouse loft building in North Loop with original brick facade and large windows"
-          caption="Converted warehouses define North Loop's residential character"
-        />
-
         <ArticleSubsection title="What Your Money Buys">
           <Prose>
             <p>
@@ -860,11 +842,6 @@ function Content() {
             for daily life.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/north-loop/target-field-station.webp"
-          alt="Target Field Station light rail platform in North Loop with downtown Minneapolis skyline"
-          caption="Target Field Station — the transit hub that connects North Loop to the region"
-        />
         <Prose>
           <p>
             The one genuine pain point is parking. Street parking is limited

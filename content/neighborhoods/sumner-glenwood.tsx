@@ -286,12 +286,6 @@ function Content() {
           text="They tore down the projects and built something nicer. But the people who lived there — where did they go? That's the question nobody wants to answer."
           cite="Former Sumner-Olson resident"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/sumner-glenwood/heritage-park.webp"
-          alt="Heritage Park mixed-income housing development in Sumner - Glenwood"
-          caption="Heritage Park — mixed-income development on the site of the former Sumner-Olson public housing"
-        />
       </ArticleSection>
 
       {/* Food */}

@@ -329,11 +329,6 @@ function Content() {
               routine rather than a destination requiring a drive.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/east-isles/lake-of-the-isles.webp"
-            alt="Lake of the Isles path with walkers on the East Isles side"
-            caption="The east shore of Lake of the Isles — East Isles' living room"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Bde Maka Ska & the Chain of Lakes">
@@ -438,12 +433,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/east-isles/residential-street.webp"
-          alt="Tree-lined East Isles street with a mix of single-family homes and apartment buildings"
-          caption="East Isles' varied housing stock — homes, duplexes, and apartments share the same shaded streets"
-        />
       </ArticleSection>
 
       {/* Getting Around */}

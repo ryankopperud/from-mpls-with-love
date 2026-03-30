@@ -362,12 +362,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/cooper/lake-street.webp"
-          alt="Lake Street commercial corridor near Cooper"
-          caption="Lake Street — Cooper's northern border and culinary lifeline"
-        />
-
         <ArticleSubsection title="The Go-To Spots">
           <PlaceCardComponent place={{ name: "Minnehaha Avenue Eateries", tag: "Various", price: "$–$$", description: "Minnehaha Avenue along Cooper's western edge hosts a rotating cast of small restaurants and food businesses — taquerias, Vietnamese pho shops, Ethiopian spots. The specifics change; the quality and value remain consistent." }} />
           <PlaceCardComponent place={{ name: "Lake Street Corridor", tag: "Various", price: "$–$$", description: "A short walk north of Cooper, Lake Street is one of the most diverse commercial corridors in Minneapolis. Somali restaurants, Mexican bakeries, Asian grocery stores, and everything in between. This isn't curated dining — it's the real food economy of a diverse city." }} />
@@ -420,11 +414,6 @@ function Content() {
               thing a neighborhood park can do: it brings people together.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/cooper/brackett-park.webp"
-            alt="Brackett Park recreation center and playground in Cooper"
-            caption="Brackett Park — pool, rec center, playground, and the glue that holds Cooper together"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Minnehaha Creek & Falls">
           <Prose>
@@ -501,11 +490,6 @@ function Content() {
             from different backgrounds find real value here.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/cooper/school.webp"
-          alt="School building near Cooper neighborhood in Minneapolis"
-          caption="Cooper's schools serve one of the most diverse student populations in Minneapolis"
-        />
       </ArticleSection>
 
       {/* Real Estate */}
@@ -612,11 +596,6 @@ function Content() {
             match.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/cooper/blue-line.webp"
-          alt="Blue Line light rail station near Cooper neighborhood"
-          caption="The Blue Line — Cooper's direct connection to downtown and the airport"
-        />
       </ArticleSection>
 
       {/* Tensions */}

@@ -415,12 +415,6 @@ function Content() {
         <Quote text="We've been here seventeen years. The kids grew up, went to Keewaydin Elementary, rode their bikes to the lake every summer. I can't imagine living anywhere else in Minneapolis." cite="Keewaydin homeowner, neighborhood survey" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/keewaydin/park.webp"
-        alt="Keewaydin Park in Minneapolis with playground and green space"
-        caption="Keewaydin Park — the neighborhood's green heart"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Keewaydin">
         <Prose>

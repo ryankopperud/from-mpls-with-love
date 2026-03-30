@@ -390,12 +390,6 @@ function Content() {
         <Quote text="I bought in Morris Park because I couldn't afford Sheridan or Northeast Park, and honestly, I'm glad I ended up here. It's quiet, the river is right there, and my mortgage is half what my friends pay for rent in Uptown." cite="Morris Park homeowner, neighborhood survey" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/morris-park/river.webp"
-        alt="Mississippi River view from the Morris Park neighborhood with industrial landscape"
-        caption="The Mississippi River from Morris Park — industrial and natural landscapes layered together"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Morris Park">
         <Prose>

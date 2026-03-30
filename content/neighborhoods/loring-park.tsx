@@ -520,12 +520,6 @@ function Content() {
               of the city did not.
             </p>
           </Prose>
-
-          <ImageSlot
-            src="/images/neighborhoods/loring-park/park.webp"
-            alt="Loring Park lake and walking paths with downtown Minneapolis visible through the trees"
-            caption="Loring Park — one of the oldest and most beautiful urban parks in Minneapolis"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Walker Art Center">
@@ -591,12 +585,6 @@ function Content() {
               here without pretension.
             </p>
           </Prose>
-
-          <ImageSlot
-            src="/images/neighborhoods/loring-park/sculpture-garden.webp"
-            alt="Spoonbridge and Cherry sculpture in the Minneapolis Sculpture Garden with the Walker Art Center in the background"
-            caption="The Spoonbridge and Cherry — arguably the most photographed artwork in Minnesota — anchors the Sculpture Garden"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Basilica of Saint Mary">
@@ -781,12 +769,6 @@ function Content() {
         <Quote text="The views sell the condos. You look out at the park, the Basilica, the skyline — it&apos;s the most Minneapolis view you can get. But check the association reserves before you sign anything." cite="Loring Park real estate agent" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/loring-park/skyline.webp"
-        alt="High-rise condo buildings surrounding Loring Park with downtown Minneapolis skyline"
-        caption="Loring Park's vertical skyline — condo towers ring the park, offering views that define the neighborhood"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Loring Park">
         <Prose>
@@ -963,12 +945,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/loring-park/basilica.webp"
-        alt="Basilica of Saint Mary in Minneapolis viewed from Loring Park"
-        caption="The Basilica of Saint Mary — the first basilica in the United States, and Loring Park's architectural crown"
-      />
 
       {/* FAQ */}
       <ArticleSection id="faq" title="Loring Park FAQ">

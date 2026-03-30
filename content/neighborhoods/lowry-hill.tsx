@@ -379,11 +379,6 @@ function Content() {
               public assets.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/lowry-hill/sculpture-garden.webp"
-            alt="Minneapolis Sculpture Garden with Spoonbridge and Cherry and downtown skyline"
-            caption="The Minneapolis Sculpture Garden — Lowry Hill's front yard"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Lake of the Isles">
           <Prose>
@@ -526,11 +521,6 @@ function Content() {
             and Sculpture Garden can create competition on event days.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/lowry-hill/streetscape.webp"
-          alt="Historic residential street in Lowry Hill with mature trees and large homes"
-          caption="Lowry Hill's streets — winding, shaded, and architecturally rich"
-        />
       </ArticleSection>
 
       {/* Tensions */}

@@ -442,12 +442,6 @@ function Content() {
         <Quote text="I bought my house here for $165,000. My friends in Uptown pay more than my mortgage for rent. The neighborhood isn't perfect, but the house is mine, and I can build something here." cite="Page homeowner, community forum" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/page/community.webp"
-        alt="Community gathering in the Page neighborhood of Minneapolis"
-        caption="Page — community is built through showing up, not through marketing"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Page">
         <Prose>

@@ -284,12 +284,6 @@ function Content() {
           text="Nobody's going to fix this neighborhood for us. We know that. So we fix it ourselves, one block at a time. That's not a complaint — that's a fact."
           cite="Hawthorne block club leader"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/hawthorne/west-broadway.webp"
-          alt="West Broadway Avenue commercial corridor in Hawthorne, Minneapolis"
-          caption="West Broadway — the commercial spine of North Minneapolis runs through Hawthorne"
-        />
       </ArticleSection>
 
       {/* Food */}

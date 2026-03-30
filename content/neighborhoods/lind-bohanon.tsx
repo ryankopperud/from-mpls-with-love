@@ -286,12 +286,6 @@ function Content() {
           text="We're at the edge of the city, and that's fine with us. Our kids can ride bikes to the river. We own our home. The neighbors check in on each other. It's not glamorous, but it's ours."
           cite="Lind-Bohanon resident"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/lind-bohanon/residential-street.webp"
-          alt="Residential street in Lind-Bohanon, Minneapolis, with modest homes and wide lots"
-          caption="Lind-Bohanon — wider lots, bigger sky, and the quiet of the city's northern edge"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -398,12 +392,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/lind-bohanon/river-trail.webp"
-          alt="North Mississippi Regional Park trail near Lind-Bohanon, Minneapolis, with wooded riverbank"
-          caption="North Mississippi Regional Park — the kind of riverfront that most of Minneapolis doesn't know exists"
-        />
       </ArticleSection>
 
       {/* Schools */}

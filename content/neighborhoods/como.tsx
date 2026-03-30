@@ -272,12 +272,6 @@ function Content() {
             character.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/como/historic-homes.webp"
-          alt="Early 20th century Craftsman bungalows and foursquares on a residential street in Como, Minneapolis"
-          caption="Como's residential blocks — Craftsman bungalows and foursquares from the early 1900s that define the neighborhood's character"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -424,12 +418,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
 
-        <ImageSlot
-          src="/images/neighborhoods/como/van-cleve-park.webp"
-          alt="Van Cleve Park in the Como neighborhood with athletic fields and playground"
-          caption="Van Cleve Park — the community green space that anchors Como's outdoor life"
-        />
-
         <ArticleSubsection title="Biking & River Access">
           <Prose>
             <p>
@@ -554,12 +542,6 @@ function Content() {
         <Quote text="We bought our bungalow in Como for $280,000 eight years ago. Our friends in Linden Hills paid twice that for a comparable house. We're ten minutes from campus, fifteen minutes from downtown, and our mortgage is manageable on two academic salaries. The math just works here." cite="Como homeowner, university faculty" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/como/residential-street.webp"
-        alt="A residential street in Como with bungalows, detached garages, and mature tree canopy"
-        caption="Como's residential streets — modest bungalows, big trees, and the quiet that comes from a neighborhood that works"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Como">
         <Prose>
@@ -669,12 +651,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/como/como-avenue.webp"
-        alt="Como Avenue SE with small businesses and residential cross streets in the Como neighborhood"
-        caption="Como Avenue — the neighborhood's commercial spine, modest but functional"
-      />
 
       {/* FAQ */}
       <ArticleSection id="faq" title="Como FAQ">

@@ -326,12 +326,6 @@ function Content() {
           text="My grandmother came from Poland and bought a house in Bottineau in 1952. I bought the house next door in 2019. The Polish bakery is gone, but there's a Somali restaurant where it was, and the bread is just as good. The neighborhood changes but it doesn't forget."
           cite="Bottineau resident"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/bottineau/residential-street.webp"
-          alt="Tree-lined residential street in Bottineau, Northeast Minneapolis, with historic bungalows and church steeple visible"
-          caption="Bottineau — century-old bungalows, church steeples, and the layered history of immigrant Northeast"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -440,12 +434,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/bottineau/river-trail.webp"
-          alt="Mississippi River trail near Bottineau, Northeast Minneapolis, with wooded riverbank"
-          caption="The Mississippi River at Bottineau's western edge — quiet stretches and trail access"
-        />
       </ArticleSection>
 
       {/* Schools */}

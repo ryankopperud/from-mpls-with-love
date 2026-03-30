@@ -399,12 +399,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/cedar-riverside/cedar-avenue.webp"
-          alt="Somali restaurants and shops along Cedar Avenue in Cedar-Riverside, Minneapolis"
-          caption="Cedar Avenue through Little Mogadishu — Somali restaurants, groceries, and shops line the corridor"
-        />
-
         <ArticleSubsection title="Somali Restaurants & Markets">
           <PlaceCardComponent place={{ name: "Safari Restaurant", tag: "Somali", price: "$", description: "310 Cedar Ave. S. Safari is the institution — the restaurant that most Minneapolitans think of first when they think of Somali food in the Twin Cities. The goat suqaar is deeply spiced and served with rice, banana, and a salad that nobody orders for the salad. The sambusas are hand-folded and fried to order. The tea — spiced with cardamom, cinnamon, and clove — is essential. The dining room is no-frills and often crowded. Cash preferred." }} />
           <PlaceCardComponent place={{ name: "Hamdi Restaurant", tag: "Somali", price: "$", description: "510 Cedar Ave. S. Hamdi serves a similar menu to Safari — goat, chicken, rice, sambusas, tea — but with its own loyal following and its own particular approach to seasoning. The debate over whether Safari or Hamdi is better is one of Cedar-Riverside&apos;s enduring conversations, and the correct answer is both." }} />
@@ -507,12 +501,6 @@ function Content() {
               it provides.
             </p>
           </Prose>
-
-          <ImageSlot
-            src="/images/neighborhoods/cedar-riverside/cedar-cultural-center.webp"
-            alt="The Cedar Cultural Center on Cedar Avenue in Minneapolis"
-            caption="The Cedar Cultural Center — global music in a neighborhood that contains the world"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Currie Park">
@@ -722,12 +710,6 @@ function Content() {
         <Quote text="Where are people supposed to go? This is where our community is — the mosque, the shops, the people we know. You cannot just move us to Brooklyn Park and say it&apos;s the same." cite="Cedar-Riverside community member, development hearing" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/cedar-riverside/riverside-plaza.webp"
-        alt="Riverside Plaza towers in Cedar-Riverside, Minneapolis, with colorful panels visible on the Brutalist facade"
-        caption="Riverside Plaza — Ralph Rapson's Brutalist landmark — houses roughly 4,000 residents in over 1,300 units"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Cedar-Riverside">
         <Prose>
@@ -933,12 +915,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/cedar-riverside/west-bank.webp"
-        alt="The West Bank area of Cedar-Riverside with Palmer's Bar and neighborhood storefronts"
-        caption="The West Bank — where the counterculture legacy and the immigrant present share the same blocks"
-      />
 
       {/* FAQ */}
       <ArticleSection id="faq" title="Cedar-Riverside FAQ">

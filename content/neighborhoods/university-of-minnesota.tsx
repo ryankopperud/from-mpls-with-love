@@ -419,12 +419,6 @@ function Content() {
               in Minnesota despite the climate.
             </p>
           </Prose>
-
-          <ImageSlot
-            src="/images/neighborhoods/university-of-minnesota/mississippi-river.webp"
-            alt="Mississippi River gorge viewed from the University of Minnesota campus in fall"
-            caption="The Mississippi River gorge from campus — a reminder that this university sits on one of America's great rivers"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Weisman Art Museum">
@@ -549,12 +543,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/university-of-minnesota/stadium-village.webp"
-        alt="Stadium Village commercial district near the University of Minnesota campus, Minneapolis"
-        caption="Stadium Village — the commercial heart of campus life, transformed on football Saturdays"
-      />
 
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around the University of Minnesota">

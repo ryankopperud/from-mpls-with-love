@@ -465,12 +465,6 @@ function Content() {
         </ArticleSubsection>
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/marshall-terrace/river.webp"
-        alt="Mississippi River viewed from Marshall Terrace, Minneapolis"
-        caption="The Mississippi River from Marshall Terrace — the neighborhood's defining feature and daily companion"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Marshall Terrace">
         <Prose>

@@ -356,11 +356,6 @@ function Content() {
               walking across a frozen body of water in the middle of a city.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/east-bde-maka-ska/lake.webp"
-            alt="Bde Maka Ska beach and trail on a summer afternoon"
-            caption="Bde Maka Ska — the neighborhood's reason for being"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Chain of Lakes Trail">
           <Prose>

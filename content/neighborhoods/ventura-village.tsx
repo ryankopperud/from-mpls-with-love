@@ -267,12 +267,6 @@ function Content() {
             housing.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/ventura-village/little-earth.webp"
-          alt="Little Earth of United Tribes housing community in Ventura Village, Minneapolis"
-          caption="Little Earth of United Tribes — the largest urban Native housing community in the United States"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -323,12 +317,6 @@ function Content() {
         <Quote
           text="People drive through Phillips and they see poverty. They see what&apos;s wrong. They don&apos;t see the grandmother teaching her grandchildren Ojibwe at Little Earth. They don&apos;t see the Somali women running businesses on Franklin. They don&apos;t see the block where everyone knows everyone. They see what they expect to see."
           cite="Ventura Village community organizer"
-        />
-
-        <ImageSlot
-          src="/images/neighborhoods/ventura-village/franklin-avenue.webp"
-          alt="Diverse storefronts along Franklin Avenue in Ventura Village, Minneapolis"
-          caption="Franklin Avenue — where the neighborhood's diversity is visible in every storefront"
         />
       </ArticleSection>
 
@@ -454,11 +442,6 @@ function Content() {
               Minneapolis contradictions that works in everyone&apos;s favor.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/ventura-village/peavey-park.webp"
-            alt="Peavey Park in Ventura Village with families and children in the summer"
-            caption="Peavey Park — the neighborhood's gathering place, full of life on summer evenings"
-          />
         </ArticleSubsection>
       </ArticleSection>
 
@@ -587,12 +570,6 @@ function Content() {
             are standard on residential blocks.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/ventura-village/light-rail.webp"
-          alt="Blue Line light rail at the Franklin Avenue station near Ventura Village"
-          caption="The Blue Line at Franklin Avenue — connecting Ventura Village to downtown and the airport"
-        />
       </ArticleSection>
 
       {/* Tensions */}

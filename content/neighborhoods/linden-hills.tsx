@@ -344,12 +344,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/linden-hills/commercial-district.webp"
-          alt="The commercial district at 43rd and Upton Avenue in Linden Hills, Minneapolis"
-          caption="43rd & Upton — the heart of Linden Hills' independent business district"
-        />
-
         <ArticleSubsection title="The Institutions">
           <PlaceCardComponent place={{ name: "Wild Rumpus", tag: "Bookstore", price: "$$", url: "https://www.wildrumpusbooks.com", description: "2720 W. 43rd Street. A nationally renowned independent children's bookstore — named after the Sendak book, of course — where live chickens, cats, chinchillas, and a tarantula roam freely among the shelves. The front door is child-sized. The curating is exceptional. Wild Rumpus has been a Linden Hills institution since 1992 and is regularly cited as one of the best children's bookstores in America. Adults are welcome, but they'll need to duck." }} />
           <PlaceCardComponent place={{ name: "Sebastian Joe's Ice Cream", tag: "Ice Cream", price: "$", description: "4321 Upton Ave. S. A Minneapolis institution since 1984, known for creative flavors — the Pavarotti's Italian Bombe (chocolate ice cream with fudge, caramel, and espresso) is legendary — and long lines that persist even in winter. The original location is here in Linden Hills. There's a second shop on Franklin Avenue, but this is the one with the history." }} />
@@ -410,11 +404,6 @@ function Content() {
               been performing here for more than 75 seasons.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/linden-hills/lake-harriet-bandshell.webp"
-            alt="The Lake Harriet Bandshell during a free summer concert viewed from Linden Hills"
-            caption="The Bandshell — free concerts at the lake since the 1880s"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Bde Maka Ska">
@@ -563,12 +552,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/linden-hills/residential-street.webp"
-          alt="Tree-lined residential street in Linden Hills with Craftsman bungalows and mature elms"
-          caption="The 1920s Craftsman bungalow — Linden Hills' signature home style"
-        />
 
         <ArticleSubsection title="The Teardown Tension">
           <Prose>

@@ -264,12 +264,6 @@ function Content() {
             neighborhood.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/stevens-square-loring-heights/historic-apartments.webp"
-          alt="Century-old brick apartment buildings in Stevens Square, Minneapolis"
-          caption="Stevens Square's brick apartment buildings — modest, sturdy, and still standing after a century"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -321,12 +315,6 @@ function Content() {
         <Quote
           text="My first apartment in Minneapolis was a studio in Stevens Square. $695 a month, one block from Loring Park. I could walk to my job downtown in twelve minutes. The building was old and the hallway smelled like cooking from eight different countries. It was the best deal in the city and I knew it."
           cite="Former Stevens Square resident, now in Whittier"
-        />
-
-        <ImageSlot
-          src="/images/neighborhoods/stevens-square-loring-heights/streetscape.webp"
-          alt="A typical Stevens Square street with dense apartment buildings and street trees"
-          caption="The daily reality of Stevens Square — dense, walkable, affordable, imperfect"
         />
       </ArticleSection>
 
@@ -557,12 +545,6 @@ function Content() {
             will not miss one.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/stevens-square-loring-heights/loring-park-view.webp"
-          alt="Loring Park with the downtown Minneapolis skyline in the background, viewed from the Stevens Square side"
-          caption="Loring Park — Stevens Square's borrowed backyard and one of the best urban parks in Minneapolis"
-        />
       </ArticleSection>
 
       {/* Tensions */}

@@ -263,12 +263,6 @@ function Content() {
           text="My kids play with kids who speak four different languages. They don't think about it. They just play. That's something you can't buy in a fancier neighborhood."
           cite="Folwell parent"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/folwell/folwell-park.webp"
-          alt="Folwell Park recreation center and playing fields"
-          caption="Folwell Park — the neighborhood's community anchor"
-        />
       </ArticleSection>
 
       {/* Food */}

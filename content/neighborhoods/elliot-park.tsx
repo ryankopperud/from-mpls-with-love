@@ -262,12 +262,6 @@ function Content() {
             Park in 2026.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/elliot-park/historic.webp"
-          alt="The Elliot Park neighborhood showing the contrast between old apartment buildings and new development"
-          caption="Elliot Park — where the old neighborhood meets the new development one block at a time"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -316,12 +310,6 @@ function Content() {
         <Quote
           text="I&apos;ve been in Elliot Park for twelve years. I&apos;ve watched parking lots become apartment buildings, empty blocks become construction zones. Some of it is good — new neighbors, new businesses, better sidewalks. Some of it makes me nervous. The rents are going up. The people who were here first are getting squeezed. I just hope there&apos;s room for everyone when it&apos;s done."
           cite="Long-term Elliot Park renter"
-        />
-
-        <ImageSlot
-          src="/images/neighborhoods/elliot-park/park.webp"
-          alt="Elliot Park green space with the neighborhood's mix of old and new buildings surrounding it"
-          caption="Elliot Park — the neighborhood's namesake, modest and persistent since 1883"
         />
       </ArticleSection>
 
@@ -564,12 +552,6 @@ function Content() {
             walkability to downtown and easy car access to everywhere else.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/elliot-park/chicago-avenue.webp"
-          alt="Chicago Avenue in Elliot Park with bus service and the healthcare corridor visible"
-          caption="Chicago Avenue — Elliot Park's main artery, connecting downtown to South Minneapolis"
-        />
       </ArticleSection>
 
       {/* Tensions */}

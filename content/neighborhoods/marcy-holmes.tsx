@@ -283,12 +283,6 @@ function Content() {
             contested middle ground between them.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/marcy-holmes/historic-homes.webp"
-          alt="Historic Victorian and Queen Anne homes along the bluffs in the Marcy Holmes neighborhood"
-          caption="Marcy Holmes' bluff-top homes — some dating to the 1880s — overlook the Mississippi River gorge"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -379,12 +373,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/marcy-holmes/dinkytown.webp"
-          alt="The Dinkytown commercial district in Marcy Holmes, with storefronts and pedestrian activity near the University of Minnesota"
-          caption="Dinkytown — the commercial heart of Marcy Holmes and the University of Minnesota's off-campus hub"
-        />
-
         <ArticleSubsection title="Dinkytown Institutions">
           <PlaceCardComponent place={{ name: "Al's Breakfast", tag: "Breakfast / Diner", price: "$", description: "413 14th Ave. SE. A fourteen-seat diner in a space barely wider than a hallway, Al's has been serving breakfast to university students and professors since 1950. The line extends out the door on weekend mornings. The blueberry pancakes are famous. The experience — sitting elbow-to-elbow at the counter, watching the cook work in a space the size of a walk-in closet — is the point as much as the food. Al's is the kind of place that could only survive in a university neighborhood, where the institution itself becomes the draw." }} />
           <PlaceCardComponent place={{ name: "Shuang Cheng", tag: "Chinese / Cantonese / Seafood", price: "$–$$", description: "1320 4th St. SE. A Cantonese seafood restaurant that has been a Dinkytown fixture for decades, beloved by the university's Chinese and Chinese-American community and by anyone who has discovered that the best Chinese food in Minneapolis is not in a food court. The live fish tanks are serious. The salt-and-pepper shrimp is definitive. Shuang Cheng is the kind of restaurant that rewards repeat visits and adventurous ordering." }} />
@@ -456,12 +444,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/marcy-holmes/boom-island.webp"
-          alt="Boom Island Park in Marcy Holmes with the Minneapolis downtown skyline in the background"
-          caption="Boom Island Park — riverfront green space with one of the best skyline views in Minneapolis"
-        />
 
         <ArticleSubsection title="The River Gorge & Bluffs">
           <Prose>
@@ -620,12 +602,6 @@ function Content() {
         <Quote text="I looked at buying in Marcy Holmes and loved the bluff-top streets. But three blocks toward campus, the houses had mattresses on the porches. You really have to know which blocks are which." cite="Minneapolis homebuyer, 2024" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/marcy-holmes/river-bluff.webp"
-        alt="A tree-lined residential street in Marcy Holmes ending at a bluff overlook of the Mississippi River"
-        caption="The bluff-top streets of Marcy Holmes — where residential quiet meets Mississippi River drama"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Marcy Holmes">
         <Prose>
@@ -752,12 +728,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/marcy-holmes/stone-arch-bridge.webp"
-        alt="View from Marcy Holmes toward the Stone Arch Bridge and St. Anthony Falls on the Mississippi River"
-        caption="The Stone Arch Bridge and St. Anthony Falls — visible from the bluffs of Marcy Holmes and the reason this neighborhood exists"
-      />
 
       {/* FAQ */}
       <ArticleSection id="faq" title="Marcy Holmes FAQ">

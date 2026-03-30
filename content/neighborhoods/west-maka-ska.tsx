@@ -337,11 +337,6 @@ function Content() {
               tends to be less congested than the eastern side near Uptown.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/west-maka-ska/bde-maka-ska.webp"
-            alt="Bde Maka Ska's western shore with sailboats and the walking path"
-            caption="Bde Maka Ska — the lake that defines the neighborhood"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Lake Harriet & the Chain of Lakes">
@@ -450,12 +445,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/west-maka-ska/residential-street.webp"
-          alt="Tree-lined residential street in West Maka Ska with stucco homes and mature elms"
-          caption="West Maka Ska's residential streets — quiet, shaded, and well-maintained"
-        />
       </ArticleSection>
 
       {/* Getting Around */}

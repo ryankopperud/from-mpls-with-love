@@ -248,12 +248,6 @@ function Content() {
             residential community — has remained constant.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/bancroft/historic-homes.webp"
-          alt="Early 20th century homes on a residential street in Bancroft"
-          caption="Bancroft's housing stock — built for working families and still serving them, a century later"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -303,12 +297,6 @@ function Content() {
         <Quote
           text="People always ask, 'Is it safe?' I tell them the truth: I know every person on my block. We watch each other's houses. We share food. That's what safe means to me."
           cite="Bancroft resident, 18 years"
-        />
-
-        <ImageSlot
-          src="/images/neighborhoods/bancroft/residential-block.webp"
-          alt="Residential block in Bancroft with modest homes and front porches"
-          caption="Bancroft's residential blocks — modest, mixed, and lived in"
         />
       </ArticleSection>
 
@@ -384,11 +372,6 @@ function Content() {
               replicate.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/bancroft/phelps-park.webp"
-            alt="Phelps Park athletic fields and playground in Bancroft"
-            caption="Phelps Park — Bancroft's largest green space and community recreation center"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Nearby Connections">
@@ -535,12 +518,6 @@ function Content() {
             on residential blocks.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/bancroft/chicago-avenue.webp"
-          alt="Chicago Avenue through Bancroft with commercial storefronts and bus stops"
-          caption="Chicago Avenue — Bancroft's commercial corridor, transit lifeline, and front door to the neighborhood"
-        />
       </ArticleSection>
 
       {/* Tensions */}

@@ -309,12 +309,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/midtown-phillips/global-market.webp"
-          alt="Inside the Midtown Global Market in Minneapolis with food vendors and shoppers"
-          caption="The Midtown Global Market — a dozen cuisines under one roof"
-        />
-
         <ArticleSubsection title="Midtown Global Market Highlights">
           <PlaceCardComponent place={{ name: "Manny's Tortas", tag: "Mexican", price: "$", description: "Midtown Global Market. Massive, overstuffed tortas and burritos at prices that feel like they haven't changed in a decade. The al pastor is excellent. This is the kind of food that makes you wonder why you ever paid more for less." }} />
           <PlaceCardComponent place={{ name: "Safari Express", tag: "Somali", price: "$", description: "Midtown Global Market. Sambusas, rice with goat, and Somali tea in a no-frills setting. The food is hearty, warmly spiced, and portioned for people who actually need to eat, not just photograph their plates." }} />
@@ -489,12 +483,6 @@ function Content() {
         <Quote text="We bought our house here because it was what we could afford, and we stayed because the community is real. It's not perfect, but it's ours." cite="Midtown Phillips homeowner, neighborhood survey" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/midtown-phillips/residential.webp"
-        alt="Residential street in Midtown Phillips with older homes and mature trees"
-        caption="Midtown Phillips housing — affordable, older, and full of character"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Midtown Phillips">
         <Prose>
@@ -581,12 +569,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/midtown-phillips/lake-street.webp"
-        alt="Lake Street corridor through Midtown Phillips with small businesses and pedestrians"
-        caption="Lake Street — the neighborhood's commercial lifeline"
-      />
 
       {/* FAQ */}
       <ArticleSection id="faq" title="Midtown Phillips FAQ">

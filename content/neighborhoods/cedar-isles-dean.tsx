@@ -355,11 +355,6 @@ function Content() {
               Cedar Lake Park.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/cedar-isles-dean/cedar-lake.webp"
-            alt="Cedar Lake seen from the trail through Cedar Lake Park"
-            caption="Cedar Lake — wilder, quieter, and less polished than its neighbors"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Lake of the Isles">
@@ -487,12 +482,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/cedar-isles-dean/residential-street.webp"
-          alt="A residential street in Cedar - Isles - Dean with homes backing up to parkland"
-          caption="CIDNA homes — where residential streets meet the park system"
-        />
       </ArticleSection>
 
       {/* Getting Around */}

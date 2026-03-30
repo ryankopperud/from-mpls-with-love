@@ -279,12 +279,6 @@ function Content() {
             has only recently begun to feel like a finished neighborhood.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/downtown-east/mill-ruins.webp"
-          alt="Mill Ruins Park along the Minneapolis riverfront with the remains of 19th-century flour mills"
-          caption="Mill Ruins Park — the archaeological remains of the flour mills that made Minneapolis"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -353,12 +347,6 @@ function Content() {
         <Quote
           text="I sold my house in Edina and moved into a condo overlooking the river. My friends thought I was crazy. But I walk to the Guthrie, I walk to dinner, I walk along the river every morning. I haven&apos;t been this happy in twenty years."
           cite="Downtown East resident, former suburbanite"
-        />
-
-        <ImageSlot
-          src="/images/neighborhoods/downtown-east/guthrie.webp"
-          alt="The Guthrie Theater's blue cantilever extending over the riverfront in Downtown East Minneapolis"
-          caption="The Guthrie Theater — Jean Nouvel's 2006 building cantilevered over the Mill District"
         />
       </ArticleSection>
 
@@ -533,11 +521,6 @@ function Content() {
               adjacent plaza.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/downtown-east/stone-arch-bridge.webp"
-            alt="Stone Arch Bridge spanning the Mississippi River with St. Anthony Falls below and downtown Minneapolis skyline behind"
-            caption="The Stone Arch Bridge — 2,100 feet of granite and limestone above the only waterfall on the Mississippi"
-          />
         </ArticleSubsection>
       </ArticleSection>
 
@@ -679,12 +662,6 @@ function Content() {
             opinions about surface lot pricing and the Vikings schedule.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/downtown-east/light-rail.webp"
-          alt="Blue Line light rail train at US Bank Stadium station in Downtown East Minneapolis"
-          caption="The Blue and Green light rail lines make Downtown East one of the best-connected neighborhoods in the metro"
-        />
       </ArticleSection>
 
       {/* Tensions */}

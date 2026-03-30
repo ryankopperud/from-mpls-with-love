@@ -399,12 +399,6 @@ function Content() {
         <Quote text="We looked at suburbs with comparable schools and realized we'd pay more for a comparable house and lose the creek trail, the bike commute, and the feeling of living in a real city. Northrop was the obvious choice." cite="Northrop homeowner, neighborhood survey" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/northrop/residential.webp"
-        alt="Residential street in Northrop, Minneapolis with bungalows and mature trees"
-        caption="Northrop — bungalows, mature trees, and the quiet stability of south Minneapolis"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Northrop">
         <Prose>

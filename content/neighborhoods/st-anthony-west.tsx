@@ -291,12 +291,6 @@ function Content() {
             have managed.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/st-anthony-west/stone-arch-bridge.webp"
-          alt="The Stone Arch Bridge crossing the Mississippi River near St. Anthony Falls in Minneapolis"
-          caption="The Stone Arch Bridge — built in 1883 for railroad baron James J. Hill, now a pedestrian and bicycle landmark"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -380,12 +374,6 @@ function Content() {
             historic buildings) that most restaurants can only dream of.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/st-anthony-west/main-street.webp"
-          alt="Main Street SE in St. Anthony West with historic buildings, cobblestone streets, and the river in the background"
-          caption="Main Street SE — the commercial heart of St. Anthony, where cobblestones and river views set the stage"
-        />
 
         <ArticleSubsection title="Main Street Anchors">
           <PlaceCardComponent place={{ name: "Jax Cafe", tag: "Steakhouse / American", price: "$$$", description: "1928 University Ave. NE. Jax has been serving steaks in St. Anthony since 1933, making it one of the oldest restaurants in Minneapolis. The wood-paneled dining room, the white tablecloths, the trout pond in the backyard where you can literally catch your own dinner — Jax is a Minneapolis institution that has somehow resisted both closure and ironic reinvention. The steaks are excellent. The walleye is excellent. The experience of sitting in a room that has been serving the same neighborhood for ninety years is something no new restaurant can replicate." }} />
@@ -482,12 +470,6 @@ function Content() {
             </p>
           </Prose>
         </ArticleSubsection>
-
-        <ImageSlot
-          src="/images/neighborhoods/st-anthony-west/riverfront-trail.webp"
-          alt="The east bank riverfront trail in St. Anthony West with views of the Stone Arch Bridge and Minneapolis skyline"
-          caption="The riverfront trail through St. Anthony West — one of the finest urban trail segments in the country"
-        />
 
         <ArticleSubsection title="St. Anthony Falls & the Heritage Trail">
           <Prose>
@@ -694,12 +676,6 @@ function Content() {
         <Quote text="We looked at Linden Hills and Lynnhurst first — that's where everyone told us young families go. But a three-bedroom there was $650,000 and looked like every other house on the block. We bought a 1910 limestone bungalow in St. Anthony for $380,000 with a view of the river. No contest." cite="St. Anthony homeowner, 2024" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/st-anthony-west/nicollet-island.webp"
-        alt="Victorian-era houses on Nicollet Island with the Mississippi River and Minneapolis skyline in the background"
-        caption="Nicollet Island — one of the most unusual residential addresses in Minneapolis, a Victorian enclave floating in the Mississippi"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around St. Anthony">
         <Prose>
@@ -862,12 +838,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/st-anthony-west/merriam-street-view.webp"
-        alt="The view from Merriam Street in St. Anthony West looking toward the Stone Arch Bridge, St. Anthony Falls, and the Minneapolis skyline"
-        caption="The view from Merriam Street — Stone Arch Bridge, St. Anthony Falls, and the Minneapolis skyline in a single frame"
-      />
 
       {/* FAQ */}
       <ArticleSection id="faq" title="St. Anthony West FAQ">

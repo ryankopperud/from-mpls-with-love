@@ -273,12 +273,6 @@ function Content() {
           text="The garden is where the neighborhood works best. Nobody cares what language you speak when you're pulling weeds together."
           cite="McKinley community gardener"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/mckinley/wirth-access.webp"
-          alt="Theodore Wirth Parkway near McKinley with mature trees and a walking path"
-          caption="Theodore Wirth Parkway — McKinley's western border and connection to the city's largest park"
-        />
       </ArticleSection>
 
       {/* Food */}

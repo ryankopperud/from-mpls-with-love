@@ -376,12 +376,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/diamond-lake/pearl-park-area.webp"
-          alt="Residential streets near Pearl Park in Diamond Lake"
-          caption="Diamond Lake near Pearl Park — deeply residential, deliberately quiet"
-        />
-
         <ArticleSubsection title="The Go-To Spots">
           <PlaceCardComponent place={{ name: "Nicollet Avenue Corridor", tag: "Various", price: "$–$$", description: "The stretch of Nicollet Avenue along Diamond Lake's eastern border provides the most accessible dining options. Naviya's Thai Brasserie, Bull's Horn, and the various businesses along south Nicollet are within biking distance. This is Diamond Lake's borrowed restaurant row." }} />
           <PlaceCardComponent place={{ name: "Tangletown Gardens", tag: "Garden Center & Market", url: "https://www.tangletowngardens.com", description: "5353 Nicollet Ave. S. Just north of Diamond Lake's border. More than a garden center — it's a neighborhood institution with locally sourced groceries, prepared foods, and a gathering space. Diamond Lake residents treat it as their own." }} />
@@ -432,11 +426,6 @@ function Content() {
               residents come together regularly.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/diamond-lake/pearl-park.webp"
-            alt="Pearl Park recreation center and athletic fields in Diamond Lake"
-            caption="Pearl Park — Diamond Lake's heart, with a rec center, fields, and enough space to breathe"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Diamond Lake (The Actual Lake)">
           <Prose>
@@ -526,11 +515,6 @@ function Content() {
             fit without needing to commute long distances.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/diamond-lake/neighborhood-walk.webp"
-          alt="Family walking on a sidewalk in Diamond Lake neighborhood"
-          caption="The walk to school, the walk to the park, the walk home — Diamond Lake's daily rhythm"
-        />
       </ArticleSection>
 
       {/* Real Estate */}
@@ -634,11 +618,6 @@ function Content() {
             reality.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/diamond-lake/creek-path.webp"
-          alt="Minnehaha Creek trail along the southern edge of Diamond Lake"
-          caption="The Minnehaha Creek trail — Diamond Lake's connection to the broader park system"
-        />
       </ArticleSection>
 
       {/* Tensions */}

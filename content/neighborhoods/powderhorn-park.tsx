@@ -402,12 +402,6 @@ function Content() {
           text="Powderhorn is the only neighborhood I've ever lived in where my Somali neighbor brings me sambusa, my next-door neighbor is building puppets in his garage for the parade, and we all argue about abolition at the block party. I wouldn't trade it for anything."
           cite="Powderhorn resident, neighborhood forum"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/powderhorn-park/lake-summer.webp"
-          alt="Families gathered around Powderhorn Lake on a summer evening with picnic blankets and the park pavilion in the background"
-          caption="Powderhorn Lake in summer — the neighborhood's front yard, shared by everyone"
-        />
       </ArticleSection>
 
       {/* Food */}
@@ -491,12 +485,6 @@ function Content() {
         </ArticleSubsection>
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/powderhorn-park/lake-street.webp"
-        alt="Lake Street commercial corridor near Powderhorn Park with diverse storefronts and pedestrians"
-        caption="Lake Street through Powderhorn — one of the most diverse commercial corridors in the Midwest"
-      />
-
       {/* Outdoors */}
       <ArticleSection id="outdoors" title="Parks & Outdoors Near Powderhorn Park">
         <Prose>
@@ -555,12 +543,6 @@ function Content() {
               about it.
             </p>
           </Prose>
-
-          <ImageSlot
-            src="/images/neighborhoods/powderhorn-park/park-winter.webp"
-            alt="Powderhorn Lake in winter with ice skaters and snow-covered trees"
-            caption="Powderhorn Lake freezes into a neighborhood skating rink each winter"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="The Midtown Greenway">
@@ -966,12 +948,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/powderhorn-park/mural.webp"
-        alt="Colorful community mural on a building in the Powderhorn Park neighborhood"
-        caption="Powderhorn's walls carry the neighborhood's stories — murals are community work, not decoration"
-      />
 
       {/* FAQ */}
       <ArticleSection id="faq" title="Powderhorn Park FAQ">

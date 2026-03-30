@@ -349,12 +349,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/whittier/eat-street.webp"
-          alt="Eat Street on Nicollet Avenue in Whittier, Minneapolis, with diverse restaurant signage"
-          caption="Eat Street runs roughly a mile along Nicollet Avenue through Whittier"
-        />
-
         <ArticleSubsection title="Eat Street Institutions">
           <PlaceCardComponent place={{ name: "Quang", tag: "Vietnamese", price: "$", description: "2719 Nicollet Ave. S. Quang has been serving pho, bun, and Vietnamese home cooking since the early 1990s, and it remains one of the most beloved restaurants in the Twin Cities — not despite its simplicity but because of it. The pho is deeply flavored and enormous. The spring rolls are hand-wrapped. The prices are almost aggressively reasonable. This is the restaurant that people who left Minneapolis still dream about. Cash preferred; lines on weekends." }} />
           <PlaceCardComponent place={{ name: "Moto-i", tag: "Japanese / Sake Brewery", price: "$$", url: "https://moto-i.com", description: "2940 Lyndale Ave. S. When it opened in 2008, Moto-i was the first sake brewpub outside of Japan — brewing junmai ginjo sake in-house and pairing it with izakaya-style food. The rooftop patio is one of the best warm-weather spots in south Minneapolis. The ramen is solid; the sake flights are the real draw." }} />
@@ -447,12 +441,6 @@ function Content() {
               humbled.
             </p>
           </Prose>
-
-          <ImageSlot
-            src="/images/neighborhoods/whittier/mia.webp"
-            alt="The Minneapolis Institute of Art (Mia) exterior on Third Avenue South in Whittier"
-            caption="Mia has been free to the public since 1915 — over a century of open doors"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Minneapolis College of Art and Design (MCAD)">
@@ -659,12 +647,6 @@ function Content() {
         <Quote text="Whittier is where you can actually afford to live in the city and still walk to everything. That's getting harder every year, but it's still true — for now." cite="Whittier renter, community forum" />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/whittier/streetscape.webp"
-        alt="Apartment buildings and duplexes on a residential street in Whittier, Minneapolis"
-        caption="Whittier's housing stock is dense and varied — apartments, duplexes, and the occasional Victorian"
-      />
-
       {/* Getting Around */}
       <ArticleSection id="getting-around" title="Getting Around Whittier">
         <Prose>
@@ -830,12 +812,6 @@ function Content() {
           </Prose>
         </ArticleSubsection>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/whittier/mural.webp"
-        alt="Colorful mural on a building wall in Whittier, Minneapolis"
-        caption="Whittier's walls tell their own stories — murals are everywhere"
-      />
 
       {/* FAQ */}
       <ArticleSection id="faq" title="Whittier FAQ">

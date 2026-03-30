@@ -312,12 +312,6 @@ function Content() {
             a visible reminder that recovery is incomplete.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/south-uptown/lake-street.webp"
-          alt="Lake Street corridor in South Uptown Minneapolis with storefronts and mixed-use buildings"
-          caption="Lake Street — South Uptown's northern border — carries both the neighborhood's commercial energy and its scars"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -444,12 +438,6 @@ function Content() {
         />
       </ArticleSection>
 
-      <ImageSlot
-        src="/images/neighborhoods/south-uptown/residential-street.webp"
-        alt="Tree-lined residential street in South Uptown Minneapolis with older homes and mature elm canopy"
-        caption="South Uptown's residential blocks — quiet, tree-heavy, and a world away from the Hennepin Avenue corridor a few blocks north"
-      />
-
       {/* Food */}
       <ArticleSection id="food" title="South Uptown Food, Drink & Local Spots">
         <Prose>
@@ -562,12 +550,6 @@ function Content() {
               have sold more apartments in this neighborhood than any realtor.
             </p>
           </Prose>
-
-          <ImageSlot
-            src="/images/neighborhoods/south-uptown/bde-maka-ska.webp"
-            alt="Paddleboarders and kayakers on Bde Maka Ska with the Minneapolis skyline visible in the distance"
-            caption="Bde Maka Ska — 401 acres of lake and the reason South Uptown exists in its current form"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="The Chain of Lakes">
@@ -849,12 +831,6 @@ function Content() {
           </p>
         </Prose>
       </ArticleSection>
-
-      <ImageSlot
-        src="/images/neighborhoods/south-uptown/greenway.webp"
-        alt="The Midtown Greenway bike trail running through a below-grade trench near South Uptown Minneapolis"
-        caption="The Midtown Greenway — a 5.5-mile car-free corridor that changes the calculus of living without a car in South Uptown"
-      />
 
       {/* Tensions */}
       <ArticleSection id="tensions" title="What's Changing: The Honest Version">

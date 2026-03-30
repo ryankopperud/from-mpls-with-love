@@ -373,12 +373,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/standish/38th-street.webp"
-          alt="Businesses along 38th Street in Standish neighborhood"
-          caption="38th Street — where the food is authentic because the cooks are the community"
-        />
-
         <ArticleSubsection title="The Go-To Spots">
           <PlaceCardComponent place={{ name: "38th Street Somali Restaurants", tag: "East African", price: "$", description: "Several Somali restaurants along the 38th Street corridor serve goat, chicken suqaar, sambusas, and rice plates at prices that make most Minneapolis restaurants look exploitative. The specific names rotate — some close, new ones open — but the food remains consistently good and consistently affordable." }} />
           <PlaceCardComponent place={{ name: "El Nuevo Rodeo", tag: "Mexican", price: "$", description: "Near the 38th Street corridor. A longtime fixture for Mexican food in south Minneapolis — tortas, tacos, weekend specials. The weekend crowd includes families who've been coming for years." }} />
@@ -429,11 +423,6 @@ function Content() {
               community to gather, play, and connect.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/standish/standish-park.webp"
-            alt="Standish Park recreation center and playground"
-            caption="Standish Park — the neighborhood's physical and social center"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Lake Nokomis">
           <Prose>
@@ -505,11 +494,6 @@ function Content() {
             to your family.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/standish/neighborhood-street.webp"
-          alt="Residential street in Standish with bungalow homes"
-          caption="Standish's residential blocks — modest, solid, and built for families"
-        />
       </ArticleSection>
 
       {/* Real Estate */}
@@ -603,11 +587,6 @@ function Content() {
             life rather than a theoretical amenity.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/standish/transit.webp"
-          alt="Blue Line light rail near Standish neighborhood"
-          caption="The Blue Line on Hiawatha — Standish's express route to downtown and the airport"
-        />
       </ArticleSection>
 
       {/* Tensions */}

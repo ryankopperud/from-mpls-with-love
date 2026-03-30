@@ -281,12 +281,6 @@ function Content() {
             for what replaces it.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/downtown-west/ids-center.webp"
-          alt="The IDS Center and Crystal Court in Downtown West Minneapolis"
-          caption="The IDS Center — tallest building in Minnesota since 1972, and the anchor of the skyway system"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -352,12 +346,6 @@ function Content() {
         <Quote
           text="People ask me why I live downtown when I could work from home in Edina. Because I walk to everything. I walk to Target Center, I walk to First Avenue, I walk to dinner. I don&apos;t own a car. In January I barely go outside. It&apos;s like living in a space station that serves good cocktails."
           cite="Downtown West resident, remote worker"
-        />
-
-        <ImageSlot
-          src="/images/neighborhoods/downtown-west/skyway.webp"
-          alt="The Minneapolis skyway system connecting buildings in Downtown West"
-          caption="The skyway system — 9.5 miles of enclosed walkways that make winter livable and street life complicated"
         />
       </ArticleSection>
 
@@ -503,11 +491,6 @@ function Content() {
               in the city.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/downtown-west/first-avenue.webp"
-            alt="First Avenue music venue with its iconic star-covered facade in Downtown West Minneapolis"
-            caption="First Avenue — where Prince made Minneapolis the center of the musical universe"
-          />
         </ArticleSubsection>
       </ArticleSection>
 
@@ -633,12 +616,6 @@ function Content() {
             by bike. Winter cycling is practiced by a dedicated minority.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/downtown-west/nicollet-mall.webp"
-          alt="Nicollet Mall pedestrian street in Downtown West Minneapolis with the IDS Center in the background"
-          caption="Nicollet Mall — Minneapolis's pedestrian street, still searching for its next chapter"
-        />
       </ArticleSection>
 
       {/* Tensions */}

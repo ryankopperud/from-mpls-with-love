@@ -348,11 +348,6 @@ function Content() {
               remains an ongoing issue.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/hiawatha/lake-hiawatha.webp"
-            alt="Lake Hiawatha beach area with trees in summer"
-            caption="Lake Hiawatha — a neighborhood lake with potential and challenges"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Hiawatha Golf Course">
           <Prose>

@@ -303,12 +303,6 @@ function Content() {
           </p>
         </Prose>
 
-        <ImageSlot
-          src="/images/neighborhoods/fulton/food-broders.webp"
-          alt="Broders' Pasta Bar on West 50th Street in Fulton, Minneapolis"
-          caption="Broders' has been a Fulton institution since 1982"
-        />
-
         <ArticleSubsection title="The Institutions">
           <PlaceCardComponent place={{ name: "Broders' Cucina Italiana & Pasta Bar", tag: "Italian", price: "$$$", url: "https://broders.com", description: "2308 W. 50th Street. The Broders family has been making pasta in Fulton since 1982, after founders Molly and Tom traveled to Bologna to study Italian cooking seriously. The deli imports goods directly from Italy; the pasta bar cooks everything to order. One of the most beloved independent restaurants in the entire Twin Cities." }} />
           <PlaceCardComponent place={{ name: "Wuollet Bakery", tag: "Bakery", price: "$", url: "https://wuollet.com", description: "3608 W. 50th Street. A family-owned Twin Cities institution known across the metro for cakes, pies, pastries, and breads. The kind of place that supplies birthday cakes for multiple generations of the same family. Go early on weekends." }} />
@@ -344,19 +338,9 @@ function Content() {
         </Prose>
         <ArticleSubsection title="Lake Harriet">
           <Prose><p>Lake Harriet sits at Fulton&apos;s northeastern corner and is one of the jewels of the Minneapolis Chain of Lakes Regional Park — a string of interconnected lakes linked by parkways, trails, and greenways that give Minneapolis its reputation as one of America&apos;s most park-rich cities. The 3-mile paved loop around Lake Harriet accommodates walkers, runners, cyclists, and rollerbladers through all but the coldest months. In summer, kayak and canoe rentals launch from the western shore. There are two beaches for swimming, fishing piers, gardens, and tennis courts at Beard&apos;s Plaisance.</p></Prose>
-          <ImageSlot
-            src="/images/neighborhoods/fulton/lake-harriet.webp"
-            alt="Lake Harriet loop trail in summer with walkers, cyclists, and the Minneapolis skyline in the distance"
-            caption="The 3-mile paved loop around Lake Harriet"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="The Lake Harriet Bandshell">
           <Prose><p>Every summer since the 1880s — first as a privately operated entertainment pavilion funded by the street railway company, now as a public venue — concerts have been performed at the lake. The current Bandshell hosts the Minneapolis Music and Movies in the Parks series, which is free and runs through the summer months. The Minneapolis Pops Orchestra, which has been performing here for more than 75 seasons, plays regularly. In 2014, President Barack Obama gave a public address here to a crowd of thousands. On any given August weekend, the lawn in front of the Bandshell will be covered in blankets and folding chairs. People bring wine.</p></Prose>
-          <ImageSlot
-            src="/images/neighborhoods/fulton/bandshell.webp"
-            alt="The Lake Harriet Bandshell during a free summer concert with crowds on the lawn"
-            caption="Free concerts have been performed at the lake since the 1880s"
-          />
         </ArticleSubsection>
         <ArticleSubsection title="Minnehaha Creek">
           <Prose><p>The creek enters the neighborhood from the west and runs diagonally through it, continuing east and eventually south toward Minnehaha Falls and the Mississippi River. The paved trail alongside it connects to the Grand Rounds Scenic Byway, Minneapolis&apos;s 51-mile network of parkways and bike paths. In summer, kids float the shallower stretches on inner tubes. In winter, the creek path becomes a cross-country ski trail.</p></Prose>
@@ -409,10 +393,6 @@ function Content() {
             generally straightforward at the commercial nodes.
           </p>
         </Prose>
-        <ImageSlot
-          src="/images/neighborhoods/fulton/streetscape.webp"
-          alt="Tree-lined residential street in Fulton with sidewalks and Craftsman bungalows"
-        />
       </ArticleSection>
 
       {/* Tensions */}

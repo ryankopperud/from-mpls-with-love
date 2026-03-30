@@ -270,12 +270,6 @@ function Content() {
             the museum is open.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/phillips-west/mia-exterior.webp"
-          alt="The neoclassical facade of the Minneapolis Institute of Art in Phillips West"
-          caption="MIA — McKim, Mead & White's 1915 building, still free, still open, still in Phillips West"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -336,12 +330,6 @@ function Content() {
         <Quote
           text="I take my kids to MIA almost every weekend. It&apos;s free. It&apos;s beautiful. And it&apos;s in our neighborhood. My daughter thinks every neighborhood has a museum with Rembrandts in it. I haven&apos;t told her otherwise."
           cite="Phillips West parent"
-        />
-
-        <ImageSlot
-          src="/images/neighborhoods/phillips-west/residential.webp"
-          alt="A residential street in Phillips West, Minneapolis, with older homes and mature trees"
-          caption="The quiet residential blocks of Phillips West — modest houses, old trees, and a museum around the corner"
         />
       </ArticleSection>
 
@@ -460,11 +448,6 @@ function Content() {
               to Loring Park to the north or Powderhorn Park to the south.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/phillips-west/mia-interior.webp"
-            alt="Visitors viewing art inside the Minneapolis Institute of Art in Phillips West"
-            caption="Inside MIA — 90,000 works of art, free admission, and a neighborhood that shares it with the world"
-          />
         </ArticleSubsection>
       </ArticleSection>
 
@@ -590,12 +573,6 @@ function Content() {
             comfortably.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/phillips-west/third-avenue.webp"
-          alt="Third Avenue South in Phillips West, showing the tree-lined street leading toward MIA"
-          caption="Third Avenue South — the tree-lined approach to MIA through Phillips West's residential blocks"
-        />
       </ArticleSection>
 
       {/* Tensions */}

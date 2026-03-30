@@ -277,12 +277,6 @@ function Content() {
           text="I can walk to the park in five minutes. My house cost less than a condo in Uptown. My neighbors know my kids by name. Tell me again why this is a bad neighborhood."
           cite="Willard - Hay homeowner"
         />
-
-        <ImageSlot
-          src="/images/neighborhoods/willard-hay/willard-park.webp"
-          alt="Willard Park recreation center and green space with families"
-          caption="Willard Park — the neighborhood's community anchor and gathering place"
-        />
       </ArticleSection>
 
       {/* Food */}

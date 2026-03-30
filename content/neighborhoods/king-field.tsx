@@ -236,12 +236,6 @@ function Content() {
             cross-cultural interaction happened naturally.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/king-field/historic-street.webp"
-          alt="Tree-lined residential street in King Field showing early 20th century bungalows"
-          caption="King Field's housing stock — built for working families in the 1920s and 1930s, still serving them today"
-        />
       </ArticleSection>
 
       {/* Character */}
@@ -291,12 +285,6 @@ function Content() {
         <Quote
           text="We moved here because we could afford it. We stayed because our kids have friends who don't all look like them, and that happened without anyone having to orchestrate it."
           cite="King Field homeowner, parent of three"
-        />
-
-        <ImageSlot
-          src="/images/neighborhoods/king-field/residential-block.webp"
-          alt="Diverse residential block in King Field with bungalows and mature trees"
-          caption="King Field's residential blocks — modest, tree-lined, and genuinely mixed"
         />
       </ArticleSection>
 
@@ -375,11 +363,6 @@ function Content() {
               where King Field&apos;s different communities intersect.
             </p>
           </Prose>
-          <ImageSlot
-            src="/images/neighborhoods/king-field/mlk-park.webp"
-            alt="Martin Luther King Park playground and green space with families"
-            caption="Martin Luther King Park — the anchor green space and community gathering place"
-          />
         </ArticleSubsection>
 
         <ArticleSubsection title="Connections to Broader Green Space">
@@ -518,12 +501,6 @@ function Content() {
             corridors.
           </p>
         </Prose>
-
-        <ImageSlot
-          src="/images/neighborhoods/king-field/nicollet-corridor.webp"
-          alt="Nicollet Avenue commercial corridor near King Field with shops and bus stops"
-          caption="Nicollet Avenue — King Field's commercial spine and transit connection"
-        />
       </ArticleSection>
 
       {/* Tensions */}
