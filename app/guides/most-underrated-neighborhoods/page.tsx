@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     url: `${BASE_URL}/guides/most-underrated-neighborhoods`,
     type: "article",
   },
+  alternates: { canonical: "/guides/most-underrated-neighborhoods" },
 };
 
 const neighborhoods = [

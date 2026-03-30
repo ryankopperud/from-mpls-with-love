@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: "Terms of Service",
   description: "Terms of service for From MPLS With Love.",
   robots: { index: false, follow: true },
+  alternates: {
+    canonical: "/terms",
+  },
 };
 
 export default function TermsPage() {

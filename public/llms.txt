@@ -1,0 +1,43 @@
+# From MPLS With Love
+
+> The most in-depth guide to every neighborhood in Minneapolis.
+
+## About
+
+From MPLS With Love is an independent, editorial guide to all 87 officially defined neighborhoods in Minneapolis, Minnesota. Each neighborhood guide is thousands of words of honest, specific, deeply researched writing about what it's actually like to live there — covering history, restaurants, schools, real estate, parks, demographics, and the things no one else writes about: the tensions, the changes, the problems, and the things that make a neighborhood genuinely worth choosing.
+
+## Key Pages
+
+- Homepage: https://mplswithlove.com
+- All 87 Neighborhoods: https://mplswithlove.com/neighborhoods
+- Interactive Neighborhood Map: https://mplswithlove.com/map
+- City Guides: https://mplswithlove.com/guides
+- Community Areas: https://mplswithlove.com/communities
+- About: https://mplswithlove.com/about
+- Contact: https://mplswithlove.com/contact
+
+## Popular Guides
+
+- Moving to Minneapolis: The Complete Guide: https://mplswithlove.com/guides/moving-to-minneapolis
+- Best Neighborhoods in Minneapolis: https://mplswithlove.com/guides/best-neighborhoods
+- Minneapolis vs. St. Paul: https://mplswithlove.com/guides/minneapolis-vs-st-paul
+- Most Walkable Neighborhoods: https://mplswithlove.com/guides/most-walkable-neighborhoods
+- Best Neighborhoods for Families: https://mplswithlove.com/guides/best-neighborhoods-for-families
+- Safest Neighborhoods: https://mplswithlove.com/guides/safest-neighborhoods
+- Most Affordable Neighborhoods: https://mplswithlove.com/guides/most-affordable-neighborhoods
+- Best Neighborhoods for Young Professionals: https://mplswithlove.com/guides/best-neighborhoods-for-young-professionals
+- Best Food Neighborhoods: https://mplswithlove.com/guides/best-food-neighborhoods
+- Most Bikeable Neighborhoods: https://mplswithlove.com/guides/most-bikeable-neighborhoods
+- Best Neighborhoods for Renters: https://mplswithlove.com/guides/best-neighborhoods-for-renters
+- Best Neighborhoods for First-Time Homebuyers: https://mplswithlove.com/guides/best-neighborhoods-for-first-time-homebuyers
+
+## Content Types
+
+- **Neighborhood Guides**: In-depth guides (3,000-8,000 words each) covering history, demographics, real estate, restaurants, parks, schools, and local character for each of Minneapolis's 87 neighborhoods
+- **City Guides**: Comparative and topical guides helping people choose neighborhoods by criteria such as walkability, families, budget, safety, nightlife, food, bikeability, and more
+- **Community Areas**: Overview pages for the 11 community areas that organize Minneapolis's neighborhoods, from the Chain of Lakes to the Mississippi riverfront
+- **Interactive Map**: Mapbox-powered map showing all 87 neighborhood boundaries with links to each guide
+
+## Contact
+
+https://mplswithlove.com/contact

@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     url: `${BASE_URL}/guides/best-neighborhoods-near-the-lakes`,
     type: "article",
   },
+  alternates: { canonical: "/guides/best-neighborhoods-near-the-lakes" },
 };
 
 const neighborhoods = [

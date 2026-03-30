@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: "Contact",
   description:
     "Get in touch with From MPLS With Love — questions, corrections, partnerships, or just to say hi.",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 export default function ContactPage() {

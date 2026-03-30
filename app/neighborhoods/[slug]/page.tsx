@@ -53,6 +53,9 @@ export async function generateMetadata({
         url: `${BASE_URL}/neighborhoods/${slug}`,
         type: "article",
       },
+      alternates: {
+        canonical: `/neighborhoods/${slug}`,
+      },
     };
   }
 
@@ -60,6 +63,9 @@ export async function generateMetadata({
     title: `${neighborhood.properties.BDNAME}`,
     description: `Explore the ${neighborhood.properties.BDNAME} neighborhood in Minneapolis.`,
     robots: isPublished ? undefined : { index: false, follow: true },
+    alternates: {
+      canonical: `/neighborhoods/${slug}`,
+    },
   };
 }
 

@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "All Neighborhoods | From MPLS With Love",
   description:
     "Browse all 87 Minneapolis neighborhoods organized by their 11 communities.",
+  alternates: {
+    canonical: "/neighborhoods",
+  },
 };
 
 export default function NeighborhoodsPage() {

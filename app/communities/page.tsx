@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Communities | From MPLS With Love",
   description:
     "Explore the 11 community areas that organize Minneapolis's 87 neighborhoods — from the Chain of Lakes to the Mississippi riverfront.",
+  alternates: {
+    canonical: "/communities",
+  },
 };
 
 const COMMUNITY_BRIEFS: Record<string, string> = {

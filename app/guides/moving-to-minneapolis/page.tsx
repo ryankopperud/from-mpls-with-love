@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     url: `${BASE_URL}/guides/moving-to-minneapolis`,
     type: "article",
   },
+  alternates: { canonical: "/guides/moving-to-minneapolis" },
 };
 
 const faq = [

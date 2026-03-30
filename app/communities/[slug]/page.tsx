@@ -97,6 +97,9 @@ export async function generateMetadata({
       url: `${BASE_URL}/communities/${slug}`,
       type: "article",
     },
+    alternates: {
+      canonical: `/communities/${slug}`,
+    },
   };
 }
 

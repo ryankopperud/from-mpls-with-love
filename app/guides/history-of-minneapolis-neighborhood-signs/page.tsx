@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     url: `${BASE_URL}/guides/history-of-minneapolis-neighborhood-signs`,
     type: "article",
   },
+  alternates: { canonical: "/guides/history-of-minneapolis-neighborhood-signs" },
 };
 
 export default function NeighborhoodSignsPage() {

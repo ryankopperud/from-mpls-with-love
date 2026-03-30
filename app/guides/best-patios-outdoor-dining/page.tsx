@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     url: `${BASE_URL}/guides/best-patios-outdoor-dining`,
     type: "article",
   },
+  alternates: { canonical: "/guides/best-patios-outdoor-dining" },
 };
 
 const neighborhoods = [

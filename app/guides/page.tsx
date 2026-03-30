@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Minneapolis Guides",
   description:
     "Curated guides to Minneapolis — best neighborhoods, most walkable areas, family-friendly picks, and more. Honest, in-depth, written by locals.",
+  alternates: {
+    canonical: "/guides",
+  },
 };
 
 const guides = [

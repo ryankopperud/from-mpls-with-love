@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     url: `${BASE_URL}/guides/best-coffee-shops-by-neighborhood`,
     type: "article",
   },
+  alternates: { canonical: "/guides/best-coffee-shops-by-neighborhood" },
 };
 
 const neighborhoods = [

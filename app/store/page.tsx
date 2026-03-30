@@ -3,6 +3,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Store | From MPLS With Love",
   description: "Shop From MPLS With Love merchandise.",
+  alternates: {
+    canonical: "/store",
+  },
 };
 
 export default function StorePage() {

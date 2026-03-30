@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   },
   description:
     "The most in-depth guide to every neighborhood in Minneapolis. Explore interactive maps, honest guides, and neighborhood sign art for all 87 neighborhoods.",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 const FEATURED_GUIDES = [
@@ -17,7 +20,7 @@ const FEATURED_GUIDES = [
     name: "North Loop",
     tag: "Most Walkable",
     description:
-      "Warehouse lofts, James Beard restaurants, and the best Walk Score in Minneapolis.",
+      "Warehouse lofts, James Beard restaurants, and the best Walk Score in Minneapolis. The city's premier food-and-nightlife district, steps from the riverfront.",
     image: "/images/neighborhoods/north-loop-walkway-bike-share-evening.webp",
     imageAlt:
       "Evening view of the North Loop walkway with bike share stations and warm lighting",
@@ -27,7 +30,7 @@ const FEATURED_GUIDES = [
     name: "Whittier",
     tag: "Most Interesting",
     description:
-      "Eat Street, MIA, genuine diversity, and the densest restaurant scene in the state.",
+      "Eat Street, MIA, genuine diversity, and the densest restaurant scene in the state. Where culture, affordability, and urban density actually coexist.",
     image: "/images/food/aster-cafe-st-anthony-main-summer.webp",
     imageAlt:
       "Aster Cafe on St. Anthony Main in summer, representing the diverse Minneapolis food scene",
@@ -37,7 +40,7 @@ const FEATURED_GUIDES = [
     name: "Fulton",
     tag: "Best for Families",
     description:
-      "Lake Harriet, Craftsman bungalows, strong schools, and the quiet life done right.",
+      "Lake Harriet, Craftsman bungalows, strong schools, and the quiet life done right. A top pick for families who want lake access and residential calm.",
     image: "/images/lakes/sailboats-minneapolis-lake-pink-dusk.webp",
     imageAlt:
       "Sailboats on a Minneapolis lake at pink dusk, capturing Fulton's lakeside lifestyle",
@@ -47,7 +50,7 @@ const FEATURED_GUIDES = [
     name: "Logan Park",
     tag: "Most Creative",
     description:
-      "Art-A-Whirl, Northrup King studios, the brewery district, and the heart of Nordeast.",
+      "Art-A-Whirl, Northrup King studios, the brewery district, and the heart of Nordeast. Where old-world Eastern European roots meet the city's creative class.",
     image: "/images/architecture/grain-belt-beer-sign-northeast.webp",
     imageAlt:
       "The iconic Grain Belt beer sign in Northeast Minneapolis at night",
@@ -57,7 +60,7 @@ const FEATURED_GUIDES = [
     name: "Powderhorn Park",
     tag: "Most Authentic",
     description:
-      "MayDay Parade, the lake as commons, radical community, and the real Minneapolis.",
+      "MayDay Parade, the lake as commons, radical community, and the real Minneapolis. Politically engaged, culturally diverse, and rebuilding after 2020.",
     image: "/images/parks/spoonbridge-cherry-sculpture-garden-winter.webp",
     imageAlt:
       "The Spoonbridge and Cherry sculpture in the Minneapolis Sculpture Garden during winter",
@@ -67,7 +70,7 @@ const FEATURED_GUIDES = [
     name: "Longfellow",
     tag: "Best Value",
     description:
-      "Minnehaha Falls, the Greenway, rebuilding after 2020, and the most underpriced location in the city.",
+      "Minnehaha Falls, the Greenway, rebuilding after 2020, and the most underpriced location in the city. Great biking, river access, and strong community roots.",
     image: "/images/parks/minnehaha-falls-summer-lush.webp",
     imageAlt:
       "Minnehaha Falls surrounded by lush summer greenery in the Longfellow neighborhood",
@@ -159,7 +162,7 @@ export default function Home() {
       {/* ── Featured Guides ── */}
       <section className="bg-[#fafafa] border-t border-[#e4e4e7]">
         <div className="max-w-7xl mx-auto px-6 py-20">
-          <div className="flex items-end justify-between mb-12">
+          <div className="flex items-end justify-between mb-4">
             <div>
               <p className="text-[0.65rem] font-bold tracking-[0.25em] uppercase text-[#2a9d8f] mb-3">
                 Featured Guides
@@ -175,6 +178,13 @@ export default function Home() {
               View all guides &rarr;
             </Link>
           </div>
+          <p className="text-lg text-[#71717a] leading-relaxed font-light mb-12 max-w-3xl">
+            Whether you&apos;re moving to Minneapolis, exploring a new part of
+            the city, or trying to decide between two neighborhoods, these six
+            guides are where most readers begin. Each covers the history, the
+            housing market, the restaurants, and the honest tradeoffs of living
+            there.
+          </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {FEATURED_GUIDES.map((guide) => (
@@ -236,10 +246,27 @@ export default function Home() {
               about: the tensions, the changes, the problems, and the things that
               make a neighborhood genuinely worth choosing.
             </p>
-            <p className="text-lg text-[#71717a] leading-relaxed font-light">
+            <p className="text-lg text-[#71717a] leading-relaxed font-light mb-6">
               Minneapolis has 87 officially defined neighborhoods, each with its
               own sign, its own character, and its own argument about what this
               city really is. We&apos;re documenting all of them.
+            </p>
+            <p className="text-lg text-[#71717a] leading-relaxed font-light mb-6">
+              This site is built for people making real decisions &mdash;
+              where to move, where to rent, which neighborhood fits the way
+              you actually live. Maybe you need to be close to good schools in
+              Southwest. Maybe you want the restaurant density of Whittier or
+              the brewery culture of Northeast. Maybe you want a house with
+              a yard near a lake without spending $600K. We write the guides
+              that answer those questions with specifics, not slogans.
+            </p>
+            <p className="text-lg text-[#71717a] leading-relaxed font-light">
+              Beyond individual neighborhoods, we publish city-wide guides
+              comparing Minneapolis neighborhoods by walkability, safety,
+              affordability, food, nightlife, parks, transit access, and
+              more &mdash; plus a complete guide to moving to Minneapolis for
+              people coming from out of state. Every guide is free, with no
+              gated content and no real estate agenda.
             </p>
           </div>
           <div className="relative aspect-[16/9] w-full overflow-hidden">
@@ -296,10 +323,19 @@ export default function Home() {
             <h2 className="text-3xl sm:text-4xl font-black tracking-[-0.02em] text-[#0a0a0a] mb-6">
               87 neighborhoods. One map.
             </h2>
-            <p className="text-lg text-[#71717a] leading-relaxed font-light mb-8">
+            <p className="text-lg text-[#71717a] leading-relaxed font-light mb-6">
               Explore every neighborhood in Minneapolis on our interactive map.
               Click any neighborhood to see its boundaries, read its guide, and
               understand where it sits in the city.
+            </p>
+            <p className="text-lg text-[#71717a] leading-relaxed font-light mb-8">
+              The map shows all 87 official neighborhood boundaries, organized
+              across 11 community areas from the North Loop downtown to the
+              residential streets of Nokomis in the south. Hover to see
+              neighborhood names, click to jump directly to the full guide.
+              It&apos;s the fastest way to understand how Minneapolis is
+              organized and find the neighborhood that fits what you&apos;re
+              looking for.
             </p>
             <Link
               href="/map"

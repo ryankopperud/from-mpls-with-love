@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     url: `${BASE_URL}/guides/best-neighborhoods-for-first-time-homebuyers`,
     type: "article",
   },
+  alternates: { canonical: "/guides/best-neighborhoods-for-first-time-homebuyers" },
 };
 
 const neighborhoods = [

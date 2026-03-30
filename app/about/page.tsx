@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "About",
   description:
     "The story behind From MPLS With Love — why we are building the most in-depth guide to every neighborhood in Minneapolis.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 export default function AboutPage() {

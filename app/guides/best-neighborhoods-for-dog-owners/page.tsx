@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     url: `${BASE_URL}/guides/best-neighborhoods-for-dog-owners`,
     type: "article",
   },
+  alternates: { canonical: "/guides/best-neighborhoods-for-dog-owners" },
 };
 
 const neighborhoods = [

@@ -36,6 +36,9 @@ export const metadata: Metadata = {
     description:
       "The most in-depth guide to every neighborhood in Minneapolis. Honest guides, interactive maps, and neighborhood sign art.",
   },
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({
@@ -45,7 +48,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} h-full`}>
-      <head>
+      <body className="min-h-full flex flex-col font-sans">
+        <Navbar />
+        {children}
+        <Footer />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-33Z3WMMF6K"
           strategy="afterInteractive"
@@ -58,11 +64,6 @@ export default function RootLayout({
             gtag('config', 'G-33Z3WMMF6K');
           `}
         </Script>
-      </head>
-      <body className="min-h-full flex flex-col font-sans">
-        <Navbar />
-        {children}
-        <Footer />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     url: `${BASE_URL}/guides/minneapolis-vs-st-paul`,
     type: "article",
   },
+  alternates: { canonical: "/guides/minneapolis-vs-st-paul" },
 };
 
 const sections = [
